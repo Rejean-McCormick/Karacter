@@ -1,4 +1,4 @@
-===== KARACTER — FICHE TXT v4.4 =====
+===== KARACTER — FICHE TXT v5 =====
 
 Fiche Karacter — modifie les textes entre les balises. Pour les polarités, chaque paire totalise 6 points. Modifie les valeurs dans la liste lisible (ex. Prudence : 4 | Audace : 2); le JSON conserve les nuances visuelles et les contextes.
 
@@ -178,5 +178,33 @@ Surpris
 [Portraits — références seulement]
 Aucun portrait enregistré
 [/Portraits — références seulement]
+
+[Désir / objectif]
+Protéger la liberté et l’équilibre du collectif.
+[/Désir / objectif]
+
+[Besoin profond]
+Apprendre que guider ne signifie pas toujours influencer secrètement.
+[/Besoin profond]
+
+[Croyance limitante]
+Si je ne prévois pas les conséquences, les autres souffriront.
+[/Croyance limitante]
+
+[Conflit intérieur]
+Il défend la liberté, mais manipule subtilement les choix pour protéger les autres.
+[/Conflit intérieur]
+
+[Point de bascule]
+Un proche découvre qu’il a provoqué une crise pour enseigner une leçon.
+[/Point de bascule]
+
+[Transformation possible]
+Apprendre à faire confiance aux autres et à leur laisser le droit de se tromper.
+[/Transformation possible]
+
+[Relations — données JSON]
+[]
+[/Relations — données JSON]
 
 ===== FIN FICHE KARACTER =====

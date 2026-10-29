@@ -1,59 +1,43 @@
-# Karacter 4.5 — Personality Polarity Atlas
+# Karacter 5.0 — Character Studio (FR / EN)
 
-**Karacter** is a local, offline-friendly character design app for building nuanced personalities, exploring emotions and reactions, and maintaining consistent portraits across different visual worlds.
-
-> A character is not a list of virtues and flaws. A tendency can help in one situation and complicate another.
+Karacter is an offline-first character design studio focused on **balanced personality polarities**, narrative conflict, relationships, emotional scenarios and consistent visual prompts.
 
 ## Quick start
 
-1. Extract the **entire project** without changing the directory structure.
-2. Open **`index.html`** in a browser. No installation or build step is required.
-3. Select **King Klown** or choose **New character**.
-4. Set the personality polarities, copy the square-image prompt, and generate the image with ChatGPT separately.
-5. Drag the finished image into Karacter and regularly export a **Backup ZIP**.
+1. Extract the project ZIP, keeping all folders together.
+2. Open `index.html` in a modern browser. No server or build step is required.
+3. Switch between **FR** and **EN** in the header.
+4. Select **King Klown** or create a new character.
+5. Export a **Backup ZIP** periodically; browser storage is not a permanent substitute for your own files.
 
-## Language
+## New in 5.0
 
-Use the **FR / EN** buttons in the top bar to switch the interface between French and English instantly. The preference is stored locally in your browser when permitted. The switch changes **interface labels and built-in help**, not text you have written in character fields. The image prompt is primarily written in English regardless of the interface language; your own character descriptions are retained as entered. TXT and JSON data formats remain compatible with previous releases.
+- **Narrative core:** goals, hidden needs, limiting beliefs, internal contradictions, turning points and potential growth.
+- **Relationships:** link any two characters with an editable relationship and an explanatory note.
+- **Contextual reactions:** select everyday scenarios and change stakes between low, medium and high. Suggestions are creative hypotheses, not psychological predictions.
+- **Image modes:** square portrait, four-expression sheet, or character-in-action, with a **separate image slot for each mode and theme** (the original portrait is not overwritten).
+- **Better prompts:** prioritize recognizable design features and up to three dominant personality preferences, rather than flooding image generation with every score.
+- **TXT / JSON / ZIP:** export stories and relationships along with existing character information. A full ZIP/JSON also carries portraits.
 
-## Features
-
-- **Characters and collections:** create, edit, duplicate, search, group and export character sheets.
-- **Paired polarities:** two linked sliders from **0 to 6**, always adding up to **6**; **3/3** gives the poles equal emphasis.
-- **Contextual tendencies:** define when either side helps, complicates things, and how it appears visually.
-- **Visual themes:** aliens, women, mythology, hockey or custom settings without changing the underlying personality.
-- **Portraits:** drag and drop images, crop to square, keep one portrait per character and theme, and download a renamed copy.
-- **Archetypes and situations:** start from 12 fictional archetypes or explore reactions to eight everyday scenarios.
-- **Portable backups:** individual TXT sheets, batches of prompts, full JSON backups, and ZIP backups with portraits.
-
-## Documentation (English)
-
-- [Quick start guide](docs/GETTING_STARTED.md)
-- [Wiki home](docs/wiki/HOME.md)
-- [Installation](docs/wiki/INSTALLATION.md)
-- [Characters and collections](docs/wiki/CHARACTERS_AND_COLLECTIONS.md)
-- [Personality polarities](docs/wiki/POLARITIES.md)
-- [Images and prompts](docs/wiki/IMAGES_AND_PROMPTS.md)
-- [Backups and imports](docs/wiki/BACKUPS_AND_IMPORTS.md)
-- [Archetypes and situations](docs/wiki/ARCHETYPES_AND_SITUATIONS.md)
-- [Troubleshooting](docs/wiki/TROUBLESHOOTING.md)
-- [Technical structure](docs/wiki/TECHNICAL_STRUCTURE.md)
-
-## Project layout
+## Structure
 
 ```text
-index.html               Entry point — open this file
-css/main.css             Layout and styling
-js/data.js               Character and archetype reference data
-js/app.js                Application logic, editing, imports and exports
-js/i18n.js               FR / EN interface translations
-assets/logo.svg          Original Karacter logo
-fiches/king-klown.txt    Importable King Klown character sheet
-portraits/               Optional manual organization of portrait files
-sauvegardes/             Optional manual organization of backup files
-docs/                    Quick start and English-language wiki
+index.html
+css/main.css
+js/data.js
+js/app.js
+js/i18n.js
+assets/logo.svg
+fiches/
+portraits/
+sauvegardes/
+docs/
 ```
 
-**Storage and privacy:** Character records are stored with browser `localStorage` and imported portraits with `IndexedDB`, where available. The application does not automatically write to the project folders. Browser storage can be cleared or vary with the `file://` path: make external ZIP backups. Image generation runs outside the app; Karacter has no built-in DALL·E connection.
+## Migration
 
-**Scope:** Karacter is a storytelling and discussion tool, not a psychological test or diagnostic product.
+Export a complete ZIP from Karacter 4.5 first, then import it in Karacter 5.0. The new fields appear blank on old characters, while existing polarities, scenes and image references remain. A saved image is physically stored in browser IndexedDB; a full backup is safest when moving folders or computers.
+
+## Limitations
+
+Karacter does **not** generate the picture itself; it prepares prompts for ChatGPT/DALL·E and accepts dropped images. Text exports contain no picture bytes. The personality axes are fictional creative choices, not diagnostic measures or independent abilities. The two values on each axis always add up to six.

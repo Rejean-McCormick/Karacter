@@ -1,6 +1,6 @@
 # Karacter Wiki — Home
 
-Welcome to the **Karacter 4.5** English-language wiki. Karacter helps you create fictional characters with contextual personality polarities and represent those characters consistently in multiple visual universes.
+Welcome to the **Karacter 5.0** English-language wiki. Karacter helps you create fictional characters with contextual personality polarities and represent those characters consistently in multiple visual universes.
 
 ## Start here
 
@@ -23,3 +23,12 @@ Caution and boldness are not moral opposites. They are **contextual creative con
 **Language switch:** FR / EN changes the interface, not your own written character records.
 
 [Main README](../../README.md) · [Quick start](../GETTING_STARTED.md)
+
+## Creative writing tools (5.0)
+
+- [Narrative depth and character arcs](NARRATIVE_DESIGN.md)
+- [Relationships](RELATIONSHIPS.md)
+- [Image modes](IMAGE_MODES.md)
+- [Explorer and Studio modes](CREATION_MODES.md)
+
+These pages cover the new storytelling tools. Existing polarities and the linked 0–6 scales remain unchanged.

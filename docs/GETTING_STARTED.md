@@ -1,36 +1,11 @@
-# Getting started — Karacter 4.5
+# Getting started — Karacter 5.0
 
-For details, visit the [English wiki](wiki/HOME.md).
+1. Open `index.html`. Choose **FR** or **EN**.
+2. Choose King Klown or create a new character.
+3. Use the linked **0–6** scales to describe habitual preferences, not moral values or absolute abilities.
+4. Switch to **Studio** for contradictions, growth and character relationships.
+5. In **Situations**, choose a scenario and its stakes; customize the reaction if desired.
+6. Select **Portrait**, **Expressions** or **In action** for a square visual prompt. Generate the image in ChatGPT, then drag the downloaded image into Karacter.
+7. Download character TXT sheets and periodically export a full **Backup ZIP** (including saved portraits).
 
-## 1. Launch
-Extract the complete project and open `index.html`. Keep its `css/`, `js/` and `assets/` folders alongside it.
-
-## 2. Choose a language
-Select **FR** or **EN** at the top of the app. The change is immediate and does not rewrite your saved character content.
-
-## 3. Create a character
-Select **King Klown** from the sidebar or click **New character**. Add a name, collection, archetype/role, interests and recognizable visual signature.
-
-## 4. Set the polarities
-Each axis has two linked sliders, both from 0 to 6. The total is always six:
-
-| Caution | Boldness | Meaning |
-|---:|---:|---|
-| 6 | 0 | Strong caution emphasis |
-| 4 | 2 | Caution is more prominent |
-| 3 | 3 | Equal emphasis |
-| 2 | 4 | Boldness is more prominent |
-| 0 | 6 | Strong boldness emphasis |
-
-Neither side is inherently good or bad. Use **Edit** to rename poles, describe their trade-offs and add visual cues, or **Add a polarity (2 poles)** to create an axis.
-
-## 5. Create a portrait
-Choose a shared visual theme and illustration style. Copy the **ChatGPT / DALL·E prompt**, generate a square image in ChatGPT, save it on your device and drop it into **Character portrait**. Each theme keeps its own image.
-
-## 6. Save and restore
-Use **TXT sheet** to download a readable, editable character record. Use **Backup ZIP** or **JSON** for a complete backup that includes images. Re-import with **Import**. TXT files do *not* embed portraits.
-
-## 7. Explore reactions
-Open **Situations**, choose a scenario and edit what your character feels, thinks, does and needs. The scenario responses are creative suggestions, not behavioral predictions.
-
-[Wiki home](wiki/HOME.md) · [Main README](../README.md)
+**Migration:** export a Backup ZIP from the old version first, then import it in 5.0. A local browser may treat a file moved to a new directory as a different storage context.

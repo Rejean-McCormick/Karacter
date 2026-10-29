@@ -2,7 +2,7 @@
 
 ## I still see the old 1–7 scale
 
-You may be opening an old HTML file. Open **`index.html` from Karacter 4.5**, not `karacter_v4.html` or another old copy. Each current axis has **two linked 0–6 sliders** that sum to six.
+You may be opening an old HTML file. Open **`index.html` from Karacter 5.0**, not `karacter_v4.html` or another old copy. Each current axis has **two linked 0–6 sliders** that sum to six.
 
 ## FR / EN does not appear
 

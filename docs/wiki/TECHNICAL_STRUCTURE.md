@@ -1,6 +1,6 @@
 # Technical structure
 
-Karacter 4.5 is a **local web app** that needs no build process, external packages or mandatory web server.
+Karacter 5.0 is a **local web app** that needs no build process, external packages or mandatory web server.
 
 ```text
 index.html        Main HTML and interface structure

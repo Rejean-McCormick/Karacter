@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#edf2ed" />
-  <title>Karacter 4.5 — Personality Polarity Atlas</title>
+  <title>Karacter 5.0 — Personality Polarity Atlas</title>
   <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
@@ -12,7 +12,7 @@
   <header class="topbar">
     <div class="brand" aria-label="Karacter">
       <img src="assets/logo.svg" alt="Symbole Karacter" />
-      <div><div class="brand-title">Karacter<span style="color:#e4aa63">.</span></div><div class="brand-sub">Personality Polarity Atlas · v4.5</div></div>
+      <div><div class="brand-title">Karacter<span style="color:#e4aa63">.</span></div><div class="brand-sub">Personality Polarity Atlas · v5.0</div></div>
     </div>
     <div class="top-actions">
       <div class="language-toggle" role="group" aria-label="Langue de l’interface / Interface language"><button type="button" class="lang-btn active" data-lang="fr" aria-pressed="true">FR</button><button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button></div>
@@ -37,6 +37,7 @@
         <div class="view-switch" aria-label="Choisir la vue"><button data-action="view-editor" id="tabEditor" class="active">✎ Atelier</button><button data-action="view-gallery" id="tabGallery">▦ Galerie</button><button data-action="view-library" id="tabLibrary">✦ Archétypes</button><button data-action="view-situations" id="tabSituations">♡ Situations</button></div>
       </div>
       <section class="theme-strip" id="themeBar" aria-label="Thèmes visuels"></section>
+      <div id="workModeBar" class="workmode" role="group" aria-label="Niveau de création"><span class="workmode-caption">Espace de création</span><button type="button" class="btn small" data-action="ui-explore" id="uiExplore">Explorer</button><button type="button" class="btn small" data-action="ui-studio" id="uiStudio">Studio</button><span class="workmode-hint" id="workModeHint">Toutes les nuances restent enregistrées.</span></div>
       <section id="editorView"></section>
       <section id="galleryView" hidden></section><section id="libraryView" hidden></section><section id="situationsView" hidden></section>
       <div class="footer-note">Un personnage n’est pas une étiquette définitive : ses émotions changent et ses réactions peuvent évoluer. Les scénarios et archétypes sont des outils créatifs, non des diagnostics. Les fichiers TXT ne contiennent pas les images; la sauvegarde ZIP / JSON les conserve. Les images sont générées hors de Karacter.</div>

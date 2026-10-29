@@ -65,6 +65,17 @@
     'Premier pôle':'First pole','Deuxième pôle':'Second pole','Ex. Autonomie':'E.g. Independence',
     'Ex. Coopération':'E.g. Cooperation','Ajouter cet axe':'Add axis','Annuler':'Cancel',
     'Modèle de création de personnages':'Character-creation model','Pas un test psychologique':'Not a psychological test',
+    'Mode Explorer : 4 axes affichés sur':'Explore mode: 4 of','Conflit intérieur et évolution':'Inner conflict and growth','Facultatif · narration':'Optional · storytelling',
+    'Un caractère devient mémorable quand ses désirs, ses croyances et ses choix entrent en tension.':'A character becomes memorable when desires, beliefs and choices collide.',
+    'Ce qu’il veut':'What they want','Ce dont il a vraiment besoin':'What they truly need','La croyance qui le limite':'Their limiting belief','Sa contradiction intérieure':'Their inner contradiction','Le moment qui le met à l’épreuve':'Their turning point','Son évolution possible':'Their potential growth',
+    'Son objectif visible…':'Their visible goal…','La vérité qu’il doit découvrir…':'What they need to discover…','Une conviction qui influence ses décisions…':'A belief shaping their choices…','Deux valeurs qui s’affrontent…':'Two values in conflict…','Une décision qui change tout…':'A choice that changes everything…','Ce qu’il pourrait apprendre…':'What they might learn…',
+    'Relations entre personnages':'Character relationships','Liens narratifs':'Narrative connections','Les liens sont propres à chaque personnage et ne changent pas avec le thème visuel.':'Relationships belong to the character and do not change with visual themes.',
+    'Nuance de cette relation':'Relationship details','Confiance, rivalité, secret partagé…':'Trust, rivalry, shared secrets…','Aucune relation enregistrée.':'No relationships yet.','Personnage introuvable':'Character not found','Type de lien':'Relationship type','＋ Ajouter une relation':'＋ Add relationship','Retirer cette relation':'Remove relationship','Crée un deuxième personnage pour ajouter une relation.':'Create another character to add a relationship.',
+    'Allié':'Ally','Rival':'Rival','Mentor':'Mentor','Protégé':'Protégé','Famille':'Family','Autre':'Other',
+    'Niveau de création':'Creation level','Espace de création':'Creation workspace','Explorer':'Explore','Studio':'Studio','Toutes les nuances restent enregistrées.':'All details remain saved.','Quatre polarités visibles; aucune donnée supprimée.':'Four polarities shown; no data is deleted.','Toutes les polarités, conflits et relations sont accessibles.':'Access all polarities, conflicts and relationships.','Type d’image dans la galerie':'Image type in gallery','Portraits':'Portraits','Expressions':'Expressions','En action':'In action','Type d’image':'Image mode','Portrait du personnage':'Character portrait','Planche de 4 expressions':'Four-expression sheet','Personnage en action':'Character in action',
+    'Un brief visuel ciblé : silhouette et continuité avant les scores.':'A focused visual brief: silhouette and continuity before scores.',
+    'Le portrait conserve la signature visuelle; les expressions montrent quatre émotions; l’action utilise la situation et les enjeux choisis.':'Portrait keeps visual identity; expressions show four emotions; action uses the selected scenario and stakes.',
+    'Importance des enjeux':'Story stakes','Faible — une contrariété passagère':'Low — a minor setback','Modérée — un choix significatif':'Medium — a meaningful choice','Élevée — quelque chose d’essentiel est en jeu':'High — something essential is at risk','⚡ Ce qui entre en tension':'⚡ What is in conflict',
     'Son monde intérieur':'Inner world','Motivation / valeur':'Motivation / value','Peur ou insécurité':'Fear or insecurity',
     'Quand ses tendances l’aident':'When their tendencies help','Quand elles le compliquent':'When they complicate things',
     'Réaction typique':'Typical reaction',
@@ -283,7 +294,7 @@
     attrs.set(node,bag);
     for(const child of node.childNodes)translateNode(child);
   }
-  function apply(){document.documentElement.lang=lang==='en'?'en':'fr-CA';document.title=lang==='en'?'Karacter 4.5 — Personality Polarity Atlas':'Karacter 4.5 — Atlas des polarités';
+  function apply(){document.documentElement.lang=lang==='en'?'en':'fr-CA';document.title=lang==='en'?'Karacter 5.0 — Personality Polarity Atlas':'Karacter 5.0 — Atlas des polarités';
     for(const btn of document.querySelectorAll('[data-lang]')){const selected=btn.dataset.lang===lang;btn.classList.toggle('active',selected);btn.setAttribute('aria-pressed',String(selected))}
     translateNode(document.body);
   }
