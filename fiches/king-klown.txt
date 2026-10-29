@@ -1,0 +1,182 @@
+===== KARACTER — FICHE TXT v4.4 =====
+
+Fiche Karacter — modifie les textes entre les balises. Pour les polarités, chaque paire totalise 6 points. Modifie les valeurs dans la liste lisible (ex. Prudence : 4 | Audace : 2); le JSON conserve les nuances visuelles et les contextes.
+
+Les portraits sont référencés mais non inclus dans ce fichier.
+
+[Identifiant]
+demo-king-klown
+[/Identifiant]
+
+[Nom]
+King Klown
+[/Nom]
+
+[Collection]
+kOA
+[/Collection]
+
+[Archétype]
+Le trickster bienveillant
+[/Archétype]
+
+[Emoji]
+🜂
+[/Emoji]
+
+[Mots-clés]
+sage, joueur, mystérieux, charismatique, imprévisible, cosmique
+[/Mots-clés]
+
+[Signature visuelle]
+Teal #1e6864, touches d’or et de noir. Très grand, présence imposante et presque surnaturelle. Maquillage inspiré du clown, mais noble et mystérieux — jamais cirque. Yeux hypnotiques, profonds, entre sagesse et malice. Cheveux ondulés poivre et sel, avec mèches noires, teal et argent, comme une énergie cosmique en spirale. Long manteau ou veston-coat descendant sous les genoux, couvert de spirales, fractales, constellations et symboles lumineux. Son corps semble parfois solide, parfois légèrement éthéré, comme s’il glissait entre plusieurs dimensions. Il n’est pas un clown de cirque, plutôt Quetzalcoatl cosmique.
+[/Signature visuelle]
+
+[Motivation / valeurs]
+Guider les autres à travers l’inconnu et garder un équilibre vivant entre chaos et structure
+[/Motivation / valeurs]
+
+[Peur / insécurité]
+Que l’ordre devienne rigide ou que le chaos soit utilisé sans conscience
+[/Peur / insécurité]
+
+[Quand ses tendances l’aident]
+Lit les motifs cachés, voit loin et transforme l’incertitude en possibilité
+[/Quand ses tendances l’aident]
+
+[Quand elles le compliquent]
+Peut dérouter les autres par son imprévisibilité et son humour énigmatique
+[/Quand elles le compliquent]
+
+[Réaction typique]
+Il commence souvent par une remarque joueuse ou un geste inattendu, puis révèle calmement la stratégie qui sert le mieux la collectivité.
+[/Réaction typique]
+
+[Polarités — paires de 0 à 6]
+1. Prudence : 1 | Audace : 5
+2. Réserve : 1 | Expressivité : 5
+3. Réflexion : 3 | Spontanéité : 3
+4. Repères familiers : 0 | Exploration : 6
+5. Objectifs : 1 | Relations : 5
+6. Contenance : 1 | Expression sensible : 5
+7. Rythme rapide : 1 | Patience : 5
+8. Concret : 0 | Imagination : 6
+[/Polarités — paires de 0 à 6]
+
+[Polarités — données JSON modifiables]
+[
+  {
+    "id": "courage",
+    "left": "Prudence",
+    "right": "Audace",
+    "value": 1,
+    "leftVisual": "posture ancrée, regard qui évalue les alentours, gestes mesurés",
+    "rightVisual": "pas volontaire vers l’avant, silhouette dynamique, regard tourné vers l’inconnu",
+    "leftBenefit": "remarque les risques avant de s’engager",
+    "rightBenefit": "ose essayer malgré l’incertitude",
+    "leftWatch": "peut manquer une occasion quand il faut agir vite",
+    "rightWatch": "peut s’exposer trop vite quand les risques sont élevés"
+  },
+  {
+    "id": "sociability",
+    "left": "Réserve",
+    "right": "Expressivité",
+    "value": 1,
+    "leftVisual": "présence discrète, posture calme, contact visuel mesuré",
+    "rightVisual": "gestuelle ouverte, visage animé, posture qui accueille les échanges",
+    "leftBenefit": "observe et écoute avant de prendre la parole",
+    "rightBenefit": "met le groupe à l’aise et partage son énergie",
+    "leftWatch": "peut avoir du mal à se faire entendre",
+    "rightWatch": "peut prendre beaucoup de place sans le vouloir"
+  },
+  {
+    "id": "impulsivity",
+    "left": "Réflexion",
+    "right": "Spontanéité",
+    "value": 3,
+    "leftVisual": "attitude posée, geste suspendu avant l’action, regard concentré",
+    "rightVisual": "geste vif, mouvement naturel, expression de réaction immédiate",
+    "leftBenefit": "anticipe les conséquences et prépare son action",
+    "rightBenefit": "saisit l’occasion et improvise rapidement",
+    "leftWatch": "peut hésiter quand il faut réagir vite",
+    "rightWatch": "peut agir avant d’avoir tous les détails"
+  },
+  {
+    "id": "curiosity",
+    "left": "Repères familiers",
+    "right": "Exploration",
+    "value": 0,
+    "leftVisual": "s’appuie sur des objets familiers, attitude rassurée et attentive",
+    "rightVisual": "regard en recherche, posture qui découvre, intérêt pour un détail nouveau",
+    "leftBenefit": "stabilise le groupe et valorise ce qui fonctionne déjà",
+    "rightBenefit": "découvre des pistes et pose des questions",
+    "leftWatch": "peut éviter des nouveautés utiles",
+    "rightWatch": "peut se disperser entre trop de découvertes"
+  },
+  {
+    "id": "empathy",
+    "left": "Objectifs",
+    "right": "Relations",
+    "value": 1,
+    "leftVisual": "attention dirigée vers un projet concret, gestes précis et concentrés",
+    "rightVisual": "orientation du corps vers les autres, regard attentif, geste d’écoute",
+    "leftBenefit": "fait avancer les choses avec clarté",
+    "rightBenefit": "remarque les besoins du groupe et entretient les liens",
+    "leftWatch": "peut oublier de vérifier comment les autres se sentent",
+    "rightWatch": "peut reporter une décision pour préserver l’harmonie"
+  },
+  {
+    "id": "sensitivity",
+    "left": "Contenance",
+    "right": "Expression sensible",
+    "value": 1,
+    "leftVisual": "émotion subtile dans les yeux, expression douce et retenue",
+    "rightVisual": "regard riche en nuances, visage réactif, émotion lisible sans caricature",
+    "leftBenefit": "garde ses sentiments pour elle ou lui lorsque le moment le demande",
+    "rightBenefit": "communique facilement son ressenti et perçoit les nuances",
+    "leftWatch": "les autres peuvent mal deviner ce qui se passe",
+    "rightWatch": "peut être submergé par une ambiance intense"
+  },
+  {
+    "id": "patience",
+    "left": "Rythme rapide",
+    "right": "Patience",
+    "value": 1,
+    "leftVisual": "posture prête à partir, gestes efficaces et rapides",
+    "rightVisual": "attitude stable, gestuelle tranquille, attention soutenue",
+    "leftBenefit": "agit vite et donne de l’élan",
+    "rightBenefit": "persévère et laisse du temps aux choses",
+    "leftWatch": "peut s’impatienter quand il faut attendre",
+    "rightWatch": "peut laisser passer une occasion urgente"
+  },
+  {
+    "id": "creativity",
+    "left": "Concret",
+    "right": "Imagination",
+    "value": 0,
+    "leftVisual": "objets utiles, composition simple, regard pratique et précis",
+    "rightVisual": "petits détails inventifs, accessoires originaux, regard rêveur et créatif",
+    "leftBenefit": "construit des solutions réalistes",
+    "rightBenefit": "imagine des possibilités inattendues",
+    "leftWatch": "peut écarter une idée trop tôt",
+    "rightWatch": "peut négliger les contraintes du réel"
+  }
+]
+[/Polarités — données JSON modifiables]
+
+[Habitudes / intérêts]
+D’abord candide en apparence, il agit comme un stratège au service de la collectivité. Mentor paradoxal, il protège l’inconnu sans chercher à le contrôler.
+[/Habitudes / intérêts]
+
+[Émotions fréquentes]
+Confiant
+Curieux
+Calme
+Surpris
+[/Émotions fréquentes]
+
+[Portraits — références seulement]
+Aucun portrait enregistré
+[/Portraits — références seulement]
+
+===== FIN FICHE KARACTER =====
