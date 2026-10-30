@@ -22,3 +22,7 @@ The following code is present and exercised by automated checks: linked 0–6 po
 ## Honest release classification
 
 **Feature-complete local creative release candidate**, not security-audited production software or psychological software. Keep exporting full ZIP backups; avoid treating the browser database as the only copy of your work.
+
+## 7.1 Kristal import (2026-10-30)
+
+The King Klown MEDIA 4.2.0 archive supplied by the user has been converted into a **creative and source-aware 19-profile pack** with 18 relationship records. Each record contains evidence references and explicit creative-proposal markings. New workspaces include the pack. Existing workspaces can import it without losing edited profile text or portraits; repeat imports are idempotent. No original image assets were available. This is a **downstream editorial interpretation**, not an update to the Kristal canonical repository. See `RELEASE_7_1.md`.

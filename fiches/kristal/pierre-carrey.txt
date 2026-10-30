@@ -1,0 +1,372 @@
+KARACTER CHARACTER SHEET v6
+
+Edit plain-text sections below; the JSON record preserves the full profile, provenance and creative interpretation. Portrait binaries are not included.
+
+[NAME]
+Pierre Carrey
+[/NAME]
+
+[ROLE]
+Investigative analyst of King Klown’s layers in Hello World
+[/ROLE]
+
+[MOTIVATION]
+Trace the provenance of King Klown without confusing mask, system, story or underlying source.
+[/MOTIVATION]
+
+[FEAR]
+That interpretation will pose as final proof.
+[/FEAR]
+
+[REACTION]
+Removes one conceptual layer, checks what remains and records what cannot be established.
+[/REACTION]
+
+[DESIRE]
+Find the final explanatory boundary of the King Klown configuration.
+[/DESIRE]
+
+[NEED]
+Learn that a boundary may be meaningful without being a complete answer.
+[/NEED]
+
+[CONTRADICTION]
+Uses reduction to investigate a figure that is defined by layers.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+CREATIVE PORTRAIT PROPOSAL: understated investigator seated amid paper archives and transparent overlays; pencil, folder tabs and a patient searching gaze.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "11c1137e-e5fc-5d7c-9e4b-bcf8163be4f2",
+  "identity": {
+    "name": "Pierre Carrey",
+    "collectionId": "263c4ed4-06d6-5e03-954d-f48f7011808d",
+    "role": "Investigative analyst of King Klown’s layers in Hello World",
+    "archetypeId": null,
+    "keywords": [
+      "investigative",
+      "analytical",
+      "persistent",
+      "meta-fiction"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Entering conversations",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Responding to surprises",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Balancing group priorities",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Showing intense feelings",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Approaching a new problem",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Trace the provenance of King Klown without confusing mask, system, story or underlying source.",
+    "values": [
+      "clarity",
+      "evidence",
+      "distinction",
+      "intellectual honesty"
+    ],
+    "fear": "That interpretation will pose as final proof.",
+    "habitualReaction": "Removes one conceptual layer, checks what remains and records what cannot be established."
+  },
+  "narrative": {
+    "desire": "Find the final explanatory boundary of the King Klown configuration.",
+    "need": "Learn that a boundary may be meaningful without being a complete answer.",
+    "limitingBelief": "Every appearance must trace back to one definitive object.",
+    "contradiction": "Uses reduction to investigate a figure that is defined by layers.",
+    "turningPoint": "The inquiry reaches the fictional character called L’Auteur.",
+    "possibleGrowth": "Accept an honest limit to the investigation without calling the subject dead."
+  },
+  "visualSignature": {
+    "description": "CREATIVE PORTRAIT PROPOSAL: understated investigator seated amid paper archives and transparent overlays; pencil, folder tabs and a patient searching gaze.",
+    "identityAnchors": [
+      "layered case file",
+      "annotated transparent sheets"
+    ],
+    "exclusions": [
+      "claim of detective profession",
+      "real-person portrait"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T12:00:00Z",
+  "updatedAt": "2026-10-30T12:00:00Z",
+  "extensions": {
+    "kristal": {
+      "sourcePackage": "Kristal King Klown 4.2.0 MEDIA / State v9",
+      "sourceEntityId": null,
+      "identityContinuity": null,
+      "profileKind": "named-character",
+      "sourceRefs": [
+        "claim:C075",
+        "U220",
+        "U221",
+        "U222",
+        "U223",
+        "U224",
+        "U225",
+        "U226",
+        "U227",
+        "U228",
+        "U229",
+        "U230",
+        "U231"
+      ],
+      "evidenceSummary": "Pierre Carrey follows the analysis/autopsy of the King Klown configuration to the authorship boundary in Hello World. A physical or cosmic death is not established.",
+      "creativeNote": "Profession, age and appearance are creative proposals.",
+      "sourceStatus": "CANON / CANON_SOURCE_CURRENT",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — not measured and not canonical",
+      "visualStatus": "CREATIVE_PROPOSAL — no portrait in source"
+    }
+  }
+}
+[/JSON_RECORD]

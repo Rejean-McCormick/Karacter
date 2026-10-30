@@ -32,3 +32,8 @@
 - Migrated 6.1 localStorage workspaces safely on first 6.2 launch.
 - Added coalesced saves, visible non-resetting error status and retry.
 - Extended transactional storage tests, updated release notes and implementation status.
+
+## 7.1.0 — Kristal MEDIA character library
+- Added 19 source-aware profiles, 18 relationships, per-character TXT sheets, structured source provenance and creative proposals.
+- Fresh installation population and non-destructive existing-workspace import.
+- Source status/epistemic notice in Create view. Does not import unavailable portrait binaries or assert created traits are canon.

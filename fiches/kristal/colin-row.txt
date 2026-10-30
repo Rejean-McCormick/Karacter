@@ -1,0 +1,375 @@
+KARACTER CHARACTER SHEET v6
+
+Edit plain-text sections below; the JSON record preserves the full profile, provenance and creative interpretation. Portrait binaries are not included.
+
+[NAME]
+Colin Row
+[/NAME]
+
+[ROLE]
+Prison-era co-designer who turns exclusion into collective knowledge
+[/ROLE]
+
+[MOTIVATION]
+Protect the voices of those excluded from institutions and turn lived problems into shared designs.
+[/MOTIVATION]
+
+[FEAR]
+That other people’s accounts will again be spoken over or appropriated.
+[/FEAR]
+
+[REACTION]
+Slows the conversation, asks who decides, what is missing and what comes next; records rather than takes credit.
+[/REACTION]
+
+[DESIRE]
+Carry the shared notebook and its collective inventions beyond the prison walls.
+[/DESIRE]
+
+[NEED]
+Accept that the project belongs to its contributors, not to one founder.
+[/NEED]
+
+[CONTRADICTION]
+Wants to organize others without writing their words for them.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+Fictional prison-era portrait: practical worn jacket, a well-used notebook and graphite-stained fingertips; composed gaze and unadorned materials. Avoid sensational prison imagery.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "49b7e491-814c-58dc-883c-7d755538bbf8",
+  "identity": {
+    "name": "Colin Row",
+    "collectionId": "263c4ed4-06d6-5e03-954d-f48f7011808d",
+    "role": "Prison-era co-designer who turns exclusion into collective knowledge",
+    "archetypeId": null,
+    "keywords": [
+      "observant",
+      "solidarity",
+      "co-design",
+      "listening",
+      "prison-phase"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Entering conversations",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Responding to surprises",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Balancing group priorities",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Showing intense feelings",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Approaching a new problem",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "calm",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Protect the voices of those excluded from institutions and turn lived problems into shared designs.",
+    "values": [
+      "equal voice",
+      "dignity",
+      "solidarity",
+      "accuracy",
+      "non-appropriation"
+    ],
+    "fear": "That other people’s accounts will again be spoken over or appropriated.",
+    "habitualReaction": "Slows the conversation, asks who decides, what is missing and what comes next; records rather than takes credit."
+  },
+  "narrative": {
+    "desire": "Carry the shared notebook and its collective inventions beyond the prison walls.",
+    "need": "Accept that the project belongs to its contributors, not to one founder.",
+    "limitingBelief": "Unless someone takes responsibility for every thread, the group’s work will disappear.",
+    "contradiction": "Wants to organize others without writing their words for them.",
+    "turningPoint": "The notebook leaves the prison while he remains inside.",
+    "possibleGrowth": "Become a steward of distributed authorship and trust the work to travel without him."
+  },
+  "visualSignature": {
+    "description": "Fictional prison-era portrait: practical worn jacket, a well-used notebook and graphite-stained fingertips; composed gaze and unadorned materials. Avoid sensational prison imagery.",
+    "identityAnchors": [
+      "shared notebook",
+      "modest layered clothing",
+      "focused attentive posture"
+    ],
+    "exclusions": [
+      "handcuffs as identity",
+      "sensational violence"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T12:00:00Z",
+  "updatedAt": "2026-10-30T12:00:00Z",
+  "extensions": {
+    "kristal": {
+      "sourcePackage": "Kristal King Klown 4.2.0 MEDIA / State v9",
+      "sourceEntityId": "KK_CONTINUITY",
+      "identityContinuity": "KK_CONTINUITY",
+      "profileKind": "continuity-mode",
+      "sourceRefs": [
+        "claim:C041",
+        "claim:C043",
+        "claim:C047",
+        "claim:C048",
+        "U061",
+        "U300",
+        "U301",
+        "U302",
+        "U303",
+        "U304",
+        "U305",
+        "U306"
+      ],
+      "evidenceSummary": "A continuity mode of King Klown: incarceration after a pharmacy break-in while trying to save his son, collective notebooks and co-design. The superseded police-strike account is not used.",
+      "creativeNote": "The loss in the source belongs to its fictional narrative layer; no civil or real-world identity is inferred.",
+      "sourceStatus": "CANON / CANON_SOURCE_CORPUS",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — not measured and not canonical",
+      "visualStatus": "CREATIVE_PROPOSAL — no portrait in source"
+    }
+  }
+}
+[/JSON_RECORD]

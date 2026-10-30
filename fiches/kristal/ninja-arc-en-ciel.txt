@@ -1,0 +1,375 @@
+KARACTER CHARACTER SHEET v6
+
+Edit plain-text sections below; the JSON record preserves the full profile, provenance and creative interpretation. Portrait binaries are not included.
+
+[NAME]
+Ninja Arc-en-ciel
+[/NAME]
+
+[ROLE]
+Rainbow mediator who intervenes in conflict and departs without claiming a throne
+[/ROLE]
+
+[MOTIVATION]
+Help opponents recognize common interests without erasing their differences.
+[/MOTIVATION]
+
+[FEAR]
+That a mediator becomes a permanent authority or forces false harmony.
+[/FEAR]
+
+[REACTION]
+Asks three questions, reframes the disagreement, names the boundaries, then leaves the decision to the parties.
+[/REACTION]
+
+[DESIRE]
+Help conflicting groups find a credible way forward.
+[/DESIRE]
+
+[NEED]
+Accept that reconciliation may remain incomplete.
+[/NEED]
+
+[CONTRADICTION]
+He wants to unify people without flattening their disagreement.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+Fantasy mediator with a restrained iridescent scarf or ribbon, light travelling cloak and open, non-threatening hands; no culturally specific costume is assumed.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "57e8c43b-c5cc-5f46-9169-9e638b77fba6",
+  "identity": {
+    "name": "Ninja Arc-en-ciel",
+    "collectionId": "263c4ed4-06d6-5e03-954d-f48f7011808d",
+    "role": "Rainbow mediator who intervenes in conflict and departs without claiming a throne",
+    "archetypeId": null,
+    "keywords": [
+      "mediator",
+      "nuanced",
+      "benevolent",
+      "mobile",
+      "non-sovereign"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Entering conversations",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Responding to surprises",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Balancing group priorities",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Showing intense feelings",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Approaching a new problem",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Help opponents recognize common interests without erasing their differences.",
+    "values": [
+      "dialogue",
+      "clear limits",
+      "plurality",
+      "peace",
+      "departure"
+    ],
+    "fear": "That a mediator becomes a permanent authority or forces false harmony.",
+    "habitualReaction": "Asks three questions, reframes the disagreement, names the boundaries, then leaves the decision to the parties."
+  },
+  "narrative": {
+    "desire": "Help conflicting groups find a credible way forward.",
+    "need": "Accept that reconciliation may remain incomplete.",
+    "limitingBelief": "If everyone sees enough perspectives, peace will follow.",
+    "contradiction": "He wants to unify people without flattening their disagreement.",
+    "turningPoint": "An enemy becomes an ally but refuses to adopt the mediator’s outlook.",
+    "possibleGrowth": "Learn to support peace without ownership, then depart."
+  },
+  "visualSignature": {
+    "description": "Fantasy mediator with a restrained iridescent scarf or ribbon, light travelling cloak and open, non-threatening hands; no culturally specific costume is assumed.",
+    "identityAnchors": [
+      "subtle rainbow ribbon",
+      "travel-ready silhouette",
+      "unarmed welcoming gesture"
+    ],
+    "exclusions": [
+      "generic assassin stereotype",
+      "militarized ninja weaponry"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T12:00:00Z",
+  "updatedAt": "2026-10-30T12:00:00Z",
+  "extensions": {
+    "kristal": {
+      "sourcePackage": "Kristal King Klown 4.2.0 MEDIA / State v9",
+      "sourceEntityId": "KK_CONTINUITY",
+      "identityContinuity": "KK_CONTINUITY",
+      "profileKind": "continuity-mode",
+      "sourceRefs": [
+        "claim:C060",
+        "claim:C061",
+        "claim:C062",
+        "U040",
+        "U041",
+        "U042",
+        "U043",
+        "U044",
+        "U045",
+        "U046",
+        "U047",
+        "U048",
+        "U049"
+      ],
+      "evidenceSummary": "A prior manifestation in the same declared identity continuity as King Klown; its cycle concerns nuances, fair speech, limits, perspectives, peace and withdrawal.",
+      "creativeNote": "Earlier descriptions of a merely weak link are superseded by the current creator clarification.",
+      "sourceStatus": "CANON / CANON_SOURCE_CORPUS",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — not measured and not canonical",
+      "visualStatus": "CREATIVE_PROPOSAL — no portrait in source"
+    }
+  }
+}
+[/JSON_RECORD]

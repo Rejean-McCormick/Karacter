@@ -1,0 +1,362 @@
+KARACTER CHARACTER SHEET v6
+
+Edit plain-text sections below; the JSON record preserves the full profile, provenance and creative interpretation. Portrait binaries are not included.
+
+[NAME]
+Koali
+[/NAME]
+
+[ROLE]
+A counterpart in selected Hello World layers where non-identity and provenance are examined
+[/ROLE]
+
+[MOTIVATION]
+Creative possibility: ask what remains shared when similar forms are not identical.
+[/MOTIVATION]
+
+[FEAR]
+Creative possibility: losing individuality inside a symbolic continuity.
+[/FEAR]
+
+[REACTION]
+Creative possibility: challenges an easy equation between look-alike names and identical beings.
+[/REACTION]
+
+[DESIRE]
+Creative possibility: discover a place in the recursive investigation.
+[/DESIRE]
+
+[NEED]
+Claim a perspective without demanding final classification.
+[/NEED]
+
+[CONTRADICTION]
+Seeks belonging while emphasizing non-identity.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+CREATIVE PORTRAIT PROPOSAL: quiet figure beside a stack of translucent identity masks, without assigned species, ethnicity or costume.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "52f2bf91-4aa0-59c7-b9d9-38881d77aa2f",
+  "identity": {
+    "name": "Koali",
+    "collectionId": "263c4ed4-06d6-5e03-954d-f48f7011808d",
+    "role": "A counterpart in selected Hello World layers where non-identity and provenance are examined",
+    "archetypeId": null,
+    "keywords": [
+      "witness",
+      "identity",
+      "interpretation",
+      "mystery"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Entering conversations",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Responding to surprises",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Balancing group priorities",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Showing intense feelings",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Approaching a new problem",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Creative possibility: ask what remains shared when similar forms are not identical.",
+    "values": [
+      "recognition",
+      "nuance",
+      "connection"
+    ],
+    "fear": "Creative possibility: losing individuality inside a symbolic continuity.",
+    "habitualReaction": "Creative possibility: challenges an easy equation between look-alike names and identical beings."
+  },
+  "narrative": {
+    "desire": "Creative possibility: discover a place in the recursive investigation.",
+    "need": "Claim a perspective without demanding final classification.",
+    "limitingBelief": "Creative proposal: if two roles share a shape, they must be the same.",
+    "contradiction": "Seeks belonging while emphasizing non-identity.",
+    "turningPoint": "The investigation reaches the provenance of masks and makers.",
+    "possibleGrowth": "Make room for kinship without forced sameness."
+  },
+  "visualSignature": {
+    "description": "CREATIVE PORTRAIT PROPOSAL: quiet figure beside a stack of translucent identity masks, without assigned species, ethnicity or costume.",
+    "identityAnchors": [
+      "translucent masks",
+      "reflective light"
+    ],
+    "exclusions": [
+      "unsupported biography",
+      "fixed species"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T12:00:00Z",
+  "updatedAt": "2026-10-30T12:00:00Z",
+  "extensions": {
+    "kristal": {
+      "sourcePackage": "Kristal King Klown 4.2.0 MEDIA / State v9",
+      "sourceEntityId": null,
+      "identityContinuity": null,
+      "profileKind": "named-character",
+      "sourceRefs": [
+        "U224",
+        "U225",
+        "U228",
+        "U230"
+      ],
+      "evidenceSummary": "Named alongside Pierre Carrey in several Hello World stages; the supplied ledger does not establish appearance, species or biography.",
+      "creativeNote": "This is explicitly a high-invention, low-detail profile.",
+      "sourceStatus": "CANON_SOURCE_CURRENT",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — not measured and not canonical",
+      "visualStatus": "CREATIVE_PROPOSAL — no portrait in source"
+    }
+  }
+}
+[/JSON_RECORD]

@@ -1,0 +1,393 @@
+KARACTER CHARACTER SHEET v6
+
+Edit plain-text sections below; the JSON record preserves the full profile, provenance and creative interpretation. Portrait binaries are not included.
+
+[NAME]
+King Klown
+[/NAME]
+
+[ROLE]
+Public trickster, social mobilizer and guardian of a freely chosen collective future
+[/ROLE]
+
+[MOTIVATION]
+Turn complex ideas into tangible public action while preserving collective autonomy and the right to dissent.
+[/MOTIVATION]
+
+[FEAR]
+That a benevolent project becomes a cult of personality or a new form of domination.
+[/FEAR]
+
+[REACTION]
+Makes an unexpected joke, listens for the hidden tension, then makes the group confront who has the right to decide.
+[/REACTION]
+
+[DESIRE]
+Build systems that continue to benefit people when he is gone.
+[/DESIRE]
+
+[NEED]
+Let others govern, criticize and even refuse his symbols.
+[/NEED]
+
+[CONTRADICTION]
+He uses spectacle to make people freer, but spectacle may draw too much authority toward him.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+Tall, commanding cosmic trickster with expressive hypnotic eyes, wavy black–silver–teal hair and a long dark coat crossed by teal and golden spirals, constellations and fractal light. Noble, strange and unmistakably not a circus clown.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "11111111-1111-4111-8111-111111111111",
+  "identity": {
+    "name": "King Klown",
+    "collectionId": "263c4ed4-06d6-5e03-954d-f48f7011808d",
+    "role": "Public trickster, social mobilizer and guardian of a freely chosen collective future",
+    "archetypeId": null,
+    "keywords": [
+      "cosmic",
+      "charismatic",
+      "playful",
+      "architectural",
+      "anti-domination",
+      "public persona"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Entering conversations",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Responding to surprises",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 0,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Balancing group priorities",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Showing intense feelings",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Approaching a new problem",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "calm",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Turn complex ideas into tangible public action while preserving collective autonomy and the right to dissent.",
+    "values": [
+      "freedom of conscience",
+      "mutual aid",
+      "collective governance",
+      "play",
+      "transparency"
+    ],
+    "fear": "That a benevolent project becomes a cult of personality or a new form of domination.",
+    "habitualReaction": "Makes an unexpected joke, listens for the hidden tension, then makes the group confront who has the right to decide."
+  },
+  "narrative": {
+    "desire": "Build systems that continue to benefit people when he is gone.",
+    "need": "Let others govern, criticize and even refuse his symbols.",
+    "limitingBelief": "Only an extraordinary intervention can make complex institutions change.",
+    "contradiction": "He uses spectacle to make people freer, but spectacle may draw too much authority toward him.",
+    "turningPoint": "The community demands real procedures that can limit his own power.",
+    "possibleGrowth": "Shift from indispensable performer to accountable initiator who willingly steps aside."
+  },
+  "visualSignature": {
+    "description": "Tall, commanding cosmic trickster with expressive hypnotic eyes, wavy black–silver–teal hair and a long dark coat crossed by teal and golden spirals, constellations and fractal light. Noble, strange and unmistakably not a circus clown.",
+    "identityAnchors": [
+      "teal #1e6864",
+      "black/silver/teal wavy hair",
+      "hypnotic eyes",
+      "long celestial coat",
+      "spirals, fractals and constellations"
+    ],
+    "exclusions": [
+      "generic circus clown",
+      "actual institutional crown or sovereignty",
+      "real logos"
+    ]
+  },
+  "milestones": [
+    {
+      "id": "77777777-7777-4777-8777-777777777777",
+      "title": "The challenge of transparency",
+      "order": 0,
+      "event": "An ally asks whether he secretly steered a difficult decision.",
+      "beliefBefore": "Only hidden guidance is safe.",
+      "beliefAfter": "Honest guidance may be stronger than hidden control.",
+      "behaviorChoice": "He offers the group an explicit choice.",
+      "relationshipIds": [
+        "44444444-4444-4444-8444-444444444444"
+      ],
+      "notes": "Proposed fictional arc; not a clinical personality change."
+    }
+  ],
+  "createdAt": "2026-10-30T12:00:00Z",
+  "updatedAt": "2026-10-30T12:00:00Z",
+  "extensions": {
+    "kristal": {
+      "sourcePackage": "Kristal King Klown 4.2.0 MEDIA / State v9",
+      "sourceEntityId": "KK_CONTINUITY",
+      "identityContinuity": "KK_CONTINUITY",
+      "profileKind": "public-persona",
+      "sourceRefs": [
+        "claim:C041",
+        "claim:C042",
+        "claim:C050",
+        "claim:C051",
+        "claim:C053",
+        "claim:C101",
+        "invariant:KK-048",
+        "invariant:KK-103",
+        "U071",
+        "U111",
+        "U120",
+        "U131"
+      ],
+      "evidenceSummary": "A public artist and mobilizer who translates systems into memorable scenes, promotes freedom and accepts institutional limits; the user also supplied his specific cosmic visual signature.",
+      "creativeNote": "The psychological interpretation and precise scores are creative, not canonical measurements.",
+      "sourceStatus": "CANON / SOURCE_EXPLICIT_NON_GOVERNING",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — not measured and not canonical",
+      "visualStatus": "USER_DESCRIPTION_AND_CREATIVE_PROPOSAL"
+    }
+  }
+}
+[/JSON_RECORD]

@@ -1,0 +1,359 @@
+KARACTER CHARACTER SHEET v6
+
+Edit plain-text sections below; the JSON record preserves the full profile, provenance and creative interpretation. Portrait binaries are not included.
+
+[NAME]
+Éliane Rivard
+[/NAME]
+
+[ROLE]
+Figure linked to public traces of the Rêvasseur mystery
+[/ROLE]
+
+[MOTIVATION]
+Creative possibility: make hidden public claims traceable without rushing to conclusions.
+[/MOTIVATION]
+
+[FEAR]
+Creative possibility: rumors will replace verifiable details.
+[/FEAR]
+
+[REACTION]
+Compiles seemingly insignificant clues before speaking publicly.
+[/REACTION]
+
+[DESIRE]
+Find the geographical anchor behind Rêvasseur.
+[/DESIRE]
+
+[NEED]
+Distinguish a verified trace from an entire explanation.
+[/NEED]
+
+[CONTRADICTION]
+Pursues visibility while respecting what evidence cannot establish.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+CREATIVE PORTRAIT PROPOSAL: diligent researcher by a regional map and carefully marked clues; no source-established physical features.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "c17c9063-4e12-557a-b3fd-7fc40715af2a",
+  "identity": {
+    "name": "Éliane Rivard",
+    "collectionId": "263c4ed4-06d6-5e03-954d-f48f7011808d",
+    "role": "Figure linked to public traces of the Rêvasseur mystery",
+    "archetypeId": null,
+    "keywords": [
+      "investigative",
+      "methodical",
+      "public-records",
+      "patient"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Entering conversations",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Responding to surprises",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Balancing group priorities",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Showing intense feelings",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Approaching a new problem",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Creative possibility: make hidden public claims traceable without rushing to conclusions.",
+    "values": [
+      "evidence",
+      "public accountability",
+      "curiosity"
+    ],
+    "fear": "Creative possibility: rumors will replace verifiable details.",
+    "habitualReaction": "Compiles seemingly insignificant clues before speaking publicly."
+  },
+  "narrative": {
+    "desire": "Find the geographical anchor behind Rêvasseur.",
+    "need": "Distinguish a verified trace from an entire explanation.",
+    "limitingBelief": "Creative proposal: every mystery has a single central place.",
+    "contradiction": "Pursues visibility while respecting what evidence cannot establish.",
+    "turningPoint": "The scattered traces point toward René-Levasseur island.",
+    "possibleGrowth": "Accept that a place may be real while the network behind it remains distributed."
+  },
+  "visualSignature": {
+    "description": "CREATIVE PORTRAIT PROPOSAL: diligent researcher by a regional map and carefully marked clues; no source-established physical features.",
+    "identityAnchors": [
+      "map and notes",
+      "marked documentary clues"
+    ],
+    "exclusions": [
+      "unverified profession",
+      "real-person identity implication"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T12:00:00Z",
+  "updatedAt": "2026-10-30T12:00:00Z",
+  "extensions": {
+    "kristal": {
+      "sourcePackage": "Kristal King Klown 4.2.0 MEDIA / State v9",
+      "sourceEntityId": null,
+      "identityContinuity": null,
+      "profileKind": "named-character",
+      "sourceRefs": [
+        "U137"
+      ],
+      "evidenceSummary": "Éliane Rivard is listed with the public as the Rêvasseur traces converge on René-Levasseur.",
+      "creativeNote": "Researcher role is imaginative; neither profession nor appearance is specified.",
+      "sourceStatus": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — not measured and not canonical",
+      "visualStatus": "CREATIVE_PROPOSAL — no portrait in source"
+    }
+  }
+}
+[/JSON_RECORD]

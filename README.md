@@ -84,3 +84,10 @@ The isolated browser checks **do not certify native IndexedDB persistence**: the
 - The author may modify or reject any suggestion.
 
 Read [the release specification](docs/RELEASE_7_0.md), [implementation status](docs/IMPLEMENTATION_STATUS.md), and the [original v6 product documentation](docs/README.md).
+
+
+## Kristal King Klown universe pack (7.1)
+
+This distribution includes **19 source-aware character design profiles** and **18 relationships** based on the supplied Kristal MEDIA 4.2.0 archive. Fresh installations receive them as example profiles; existing users can use **Import Kristal universe** from the sidebar without overwriting existing character fields or portrait images.
+
+The source archive contained **no portrait images**. Most personality scores and visual suggestions are imaginative proposals, explicitly identified as such, and must not be mistaken for Kristal canon. Read [the universe evidence policy](docs/universe/README.md) and [the character index](docs/universe/CHARACTER_INDEX.md).

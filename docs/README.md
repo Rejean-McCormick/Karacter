@@ -80,3 +80,7 @@ Karacter becomes a **Create → Understand → Simulate** workspace. It clarifie
 
 
 **Implementation:** [6.2 stability notes](RELEASE_6_2.md) and [verification status](IMPLEMENTATION_STATUS.md).
+
+### Kristal universe character pack (7.1)
+
+See [release 7.1](RELEASE_7_1.md), [character profiles](universe/CHARACTER_INDEX.md), and [evidence and creative boundaries](universe/README.md).

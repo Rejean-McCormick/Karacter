@@ -1,0 +1,950 @@
+{
+  "source": "User-provided Kristal King Klown 4.2.0 MEDIA zip",
+  "notes": "Source excerpts only; does not replace original logical artifacts or their authority ranking.",
+  "records": [
+    {
+      "ref": "U001",
+      "type": "event",
+      "title": "Rupture primordiale",
+      "status": "CANON",
+      "source_ref": "canon:CANON/02_COSMOGENESIS.md",
+      "summary": "provoque la rupture de la forme primordiale",
+      "counterparts": [
+        "PRIMORDIAL_FORM",
+        "PI",
+        "AIME"
+      ]
+    },
+    {
+      "ref": "U030",
+      "type": "event",
+      "title": "Appel pour la Plateforme de la connaissance",
+      "status": "CANON",
+      "source_ref": "canon:CANON/05_GODS.md",
+      "summary": "appelle et compose les fonctions divines autour d’une plateforme de connaissance",
+      "counterparts": [
+        "GODS",
+        "PLATFORM_KNOWLEDGE"
+      ]
+    },
+    {
+      "ref": "U040",
+      "type": "event",
+      "title": "Le Départ",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U041",
+      "type": "event",
+      "title": "Pensée Nuancée",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U042",
+      "type": "event",
+      "title": "Parole Juste",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U043",
+      "type": "event",
+      "title": "Limites Claires",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U044",
+      "type": "event",
+      "title": "L’Ennemi devenu allié",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U045",
+      "type": "event",
+      "title": "Le Pouvoir du Récit",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U046",
+      "type": "event",
+      "title": "Ni Noir Ni Blanc",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U047",
+      "type": "event",
+      "title": "Les Trois Questions",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U048",
+      "type": "event",
+      "title": "Question de Perspective",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U049",
+      "type": "event",
+      "title": "Après la Tempête, l’Arc-en-ciel",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/ninja-arc-en-ciel/source_lyrics.md",
+      "summary": "traverse une étape du cycle de médiation et d’unification décrite par la chanson",
+      "counterparts": []
+    },
+    {
+      "ref": "U061",
+      "type": "event",
+      "title": "Prison / mode Colin Row",
+      "status": "CANON",
+      "source_ref": "canon:CANON/09_COLIN_ROW.md",
+      "summary": "transforme des problèmes vécus en matière de compréhension et de conception collective",
+      "counterparts": [
+        "Personnes incarcérées"
+      ]
+    },
+    {
+      "ref": "U300",
+      "type": "event",
+      "title": "Matteo donne le premier carnet",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/colin-row/00_CANONICAL_STATE_source.md",
+      "summary": "reçoit un carnet qui permet de recueillir récits et problèmes",
+      "counterparts": [
+        "Matteo"
+      ]
+    },
+    {
+      "ref": "U301",
+      "type": "event",
+      "title": "APR et autographie",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/colin-row/00_CANONICAL_STATE_source.md",
+      "summary": "apprend à ordonner les faits sans écrire la phrase de l’autre",
+      "counterparts": [
+        "Nadia",
+        "Atelier Parcours & Réinsertion"
+      ]
+    },
+    {
+      "ref": "U302",
+      "type": "event",
+      "title": "Trois questions portables",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/colin-row/00_CANONICAL_STATE_source.md",
+      "summary": "continue avec Qui décide? Qu’est-ce qui manque? Et après?",
+      "counterparts": [
+        "Nadia"
+      ]
+    },
+    {
+      "ref": "U303",
+      "type": "event",
+      "title": "KOA devient discipline de groupe",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/colin-row/00_CANONICAL_STATE_source.md",
+      "summary": "ralentit, écoute, distingue, reformule et ne confisque pas la parole",
+      "counterparts": [
+        "Détenus"
+      ]
+    },
+    {
+      "ref": "U304",
+      "type": "event",
+      "title": "Kristal Farms émerge comme synthèse",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/colin-row/00_CANONICAL_STATE_source.md",
+      "summary": "fait converger besoins et compétences vers une infrastructure commune",
+      "counterparts": [
+        "Co-concepteurs détenus"
+      ]
+    },
+    {
+      "ref": "U305",
+      "type": "event",
+      "title": "Baptême collectif de Konnaxion",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/colin-row/00_CANONICAL_STATE_source.md",
+      "summary": "nomme tardivement Konnaxion après émergence des idées",
+      "counterparts": [
+        "Collectif carcéral"
+      ]
+    },
+    {
+      "ref": "U306",
+      "type": "event",
+      "title": "Le carnet franchit les murs",
+      "status": "CANON_SOURCE_CORPUS",
+      "source_ref": "canon:CORPUS/colin-row/00_CANONICAL_STATE_source.md",
+      "summary": "laisse le carnet sortir tandis qu’il reste enfermé",
+      "counterparts": [
+        "Relais extérieurs"
+      ]
+    },
+    {
+      "ref": "U106",
+      "type": "event",
+      "title": "Le pacte, pas la faveur",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "fait passer l’accueil à un pacte entre parties",
+      "counterparts": [
+        "Yusufa",
+        "Aïda Mansour",
+        "Médiatrice autochtone"
+      ]
+    },
+    {
+      "ref": "U109",
+      "type": "event",
+      "title": "Le repas où King Klown comprend moins vite",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "mange avec la communauté sans présider et accepte d’être repris par une aînée",
+      "counterparts": [
+        "Ouvrier ouïghour",
+        "Pêcheur local",
+        "Aînée",
+        "Familles"
+      ]
+    },
+    {
+      "ref": "U111",
+      "type": "event",
+      "title": "Le droit de ne pas porter le nez",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "fait du symbole King Klown un cas-test du droit de refus",
+      "counterparts": [
+        "Enfants",
+        "Yusufa",
+        "Aïda Mansour"
+      ]
+    },
+    {
+      "ref": "U120",
+      "type": "event",
+      "title": "La Charte des Vannes",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "accepte que le secret, les délais et sa propre influence soient gouvernés par procédures",
+      "counterparts": [
+        "Aïda Mansour",
+        "Commission des vannes"
+      ]
+    },
+    {
+      "ref": "U128",
+      "type": "event",
+      "title": "Les villages ne sont pas des camps / L’asile",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "participe sans droit de première définition à une réunion sur asile et enfermement",
+      "counterparts": [
+        "Yusufa",
+        "Niviaq",
+        "Marisol",
+        "Aïda Mansour"
+      ]
+    },
+    {
+      "ref": "U131",
+      "type": "event",
+      "title": "Le droit de non-croyance civique",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "dissocie participation aux infrastructures et adhésion au mythe",
+      "counterparts": [
+        "Habitants",
+        "Non-croyants"
+      ]
+    },
+    {
+      "ref": "U133",
+      "type": "event",
+      "title": "Je vais à l’Île Rêvasseur",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "utilise Rêvasseur pour ses absences jusqu’à ce que l’expression devienne une information connue comme inconnue",
+      "counterparts": [
+        "Aïda Mansour",
+        "Yusufa",
+        "Niviaq",
+        "Marisol"
+      ]
+    },
+    {
+      "ref": "U134",
+      "type": "event",
+      "title": "La crise sans lui",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "disparaît pendant une crise d’approvisionnement",
+      "counterparts": [
+        "Aïda Mansour",
+        "Yusufa",
+        "Niviaq",
+        "Marisol"
+      ]
+    },
+    {
+      "ref": "U137",
+      "type": "event",
+      "title": "René-Levasseur",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "les traces font converger Rêvasseur vers l’île René-Levasseur",
+      "counterparts": [
+        "Éliane Rivard",
+        "Public"
+      ]
+    },
+    {
+      "ref": "U138",
+      "type": "event",
+      "title": "Le bunker existe",
+      "status": "SOURCE_EXPLICIT_NON_GOVERNING",
+      "source_ref": "canon:CORPUS/asile/asile_v2_source.md",
+      "summary": "confirme l’existence du bunker/protocole matériel",
+      "counterparts": [
+        "Aïda Mansour",
+        "Public",
+        "Communautés partenaires"
+      ]
+    },
+    {
+      "ref": "U220",
+      "type": "event",
+      "title": "La dernière trace connue",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U221",
+      "type": "event",
+      "title": "Surface",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U222",
+      "type": "event",
+      "title": "Coutures",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U223",
+      "type": "event",
+      "title": "Le Fou",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U224",
+      "type": "event",
+      "title": "Non identique",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey",
+        "Koali"
+      ]
+    },
+    {
+      "ref": "U225",
+      "type": "event",
+      "title": "Provenance",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey",
+        "Koali"
+      ]
+    },
+    {
+      "ref": "U226",
+      "type": "event",
+      "title": "Le créateur trouvé comme lecteur",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U227",
+      "type": "event",
+      "title": "Avant les dieux",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U228",
+      "type": "event",
+      "title": "Le Mandat",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey",
+        "Koali"
+      ]
+    },
+    {
+      "ref": "U229",
+      "type": "event",
+      "title": "Sauve son âme",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U230",
+      "type": "event",
+      "title": "Aucun dossier ultérieur",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey",
+        "Koali"
+      ]
+    },
+    {
+      "ref": "U231",
+      "type": "event",
+      "title": "Hello World / L’Auteur",
+      "status": "CANON_SOURCE_CURRENT",
+      "source_ref": "canon:CORPUS/hello-world/current-canon/05_TRACK_ARCHITECTURE.md",
+      "summary": "l’autopsie analytique soustrait surface, coutures, fonctions, systèmes et provenance jusqu’à la frontière de L’Auteur",
+      "counterparts": [
+        "Pierre Carrey"
+      ]
+    },
+    {
+      "ref": "U071",
+      "type": "event",
+      "title": "Transmission / retrait",
+      "status": "CANON",
+      "source_ref": "canon:CANON/13_TRANSMISSION_WITHDRAWAL.md",
+      "summary": "construit et transmet pour que l’œuvre continue sans dépendance permanente au personnage",
+      "counterparts": [
+        "Successeurs",
+        "Institutions",
+        "Public"
+      ]
+    },
+    {
+      "ref": "claim:C001",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_principle"
+        },
+        "predicate": "kk.is_named_as",
+        "object": {
+          "kind": "string",
+          "value": "contemporary name/personification of primordial creative principle",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C002",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_principle"
+        },
+        "predicate": "kk.causes",
+        "object": {
+          "kind": "string",
+          "value": "primordial rupture/division",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C007",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:aime"
+        },
+        "predicate": "kk.arises_as",
+        "object": {
+          "kind": "string",
+          "value": "equal counterforce to rupture",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C020",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_principle"
+        },
+        "predicate": "kk.symbolic_model",
+        "object": {
+          "kind": "string",
+          "value": "white light integrating differentiated divine colors",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C022",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_principle"
+        },
+        "predicate": "kk.meets",
+        "object": {
+          "kind": "string",
+          "value": "gods across known mythologies",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C041",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:colin"
+        },
+        "predicate": "kk.primary_function",
+        "object": {
+          "kind": "string",
+          "value": "prison/systemic exclusion/co-design phase",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C042",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_persona"
+        },
+        "predicate": "kk.primary_function",
+        "object": {
+          "kind": "string",
+          "value": "public mobilizer/artist/performer/explorer",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C043",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:colin"
+        },
+        "predicate": "kk.incarcerated_for",
+        "object": {
+          "kind": "string",
+          "value": "pharmacy break-in attempting to save son",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C047",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:colin"
+        },
+        "predicate": "kk.allies_with",
+        "object": {
+          "kind": "string",
+          "value": "people most excluded by system",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C048",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:colin"
+        },
+        "predicate": "kk.transforms",
+        "object": {
+          "kind": "string",
+          "value": "lived problems into collective intelligence/design",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C050",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_persona"
+        },
+        "predicate": "kk.protects",
+        "object": {
+          "kind": "string",
+          "value": "separation between author identity and public intervention",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C051",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_persona"
+        },
+        "predicate": "kk.enables",
+        "object": {
+          "kind": "string",
+          "value": "audacity and freedom of action",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C053",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_persona"
+        },
+        "predicate": "kk.translates",
+        "object": {
+          "kind": "string",
+          "value": "technical/systemic principles into scenes and examples",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C060",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:ninja"
+        },
+        "predicate": "kk.relationship_to_KK",
+        "object": {
+          "kind": "string",
+          "value": "real but deliberately weak prior manifestation/incarnation link",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C061",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:ninja"
+        },
+        "predicate": "kk.demonstrates",
+        "object": {
+          "kind": "string",
+          "value": "pattern can mutate by era while retaining benevolent essence",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C062",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:ninja"
+        },
+        "predicate": "kk.leaves_after",
+        "object": {
+          "kind": "string",
+          "value": "helping parties reach peace",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C073",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:author_hw"
+        },
+        "predicate": "kk.exists_only_as_character_in",
+        "object": {
+          "kind": "string",
+          "value": "Hello World",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C074",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:author_hw"
+        },
+        "predicate": "kk.is_not",
+        "object": {
+          "kind": "string",
+          "value": "general alias of King Klown",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C075",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:pierre_carrey"
+        },
+        "predicate": "kk.traces",
+        "object": {
+          "kind": "string",
+          "value": "provenance to AUTHOR_HW",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "claim:C083",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:author_real"
+        },
+        "predicate": "kk.is_not",
+        "object": {
+          "kind": "json",
+          "value": {
+            "entity_id": "AUTHOR_HW"
+          }
+        }
+      }
+    },
+    {
+      "ref": "claim:C101",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk_cosmic_status"
+        },
+        "predicate": "kk.does_not_grant",
+        "object": {
+          "kind": "string",
+          "value": "automatic institutional sovereignty",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "invariant:KK-048",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk-048"
+        },
+        "predicate": "kk.canon.invariant_text",
+        "object": {
+          "kind": "string",
+          "value": "King Klown public est mobilisateur social, artiste, créatif, exubérant, audacieux et confiant.",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "invariant:KK-100",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk-100"
+        },
+        "predicate": "kk.canon.invariant_text",
+        "object": {
+          "kind": "string",
+          "value": "Les claims métaphysiques sont du canon métaphysique interne ; ils ne sont pas présentés comme preuve scientifique établie.",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "invariant:KK-103",
+      "type": "assertion",
+      "status": "CANON",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk-103"
+        },
+        "predicate": "kk.canon.invariant_text",
+        "object": {
+          "kind": "string",
+          "value": "Le statut cosmique de KK ne donne pas d'autorité institutionnelle automatique.",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "invariant:KK-105",
+      "type": "assertion",
+      "status": "CANON_CURRENT_CLARIFICATION",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk-105"
+        },
+        "predicate": "kk.canon.invariant_text",
+        "object": {
+          "kind": "string",
+          "value": "King Klown est une entité mythique trans-couches : principe, personnage, masque, voix et continuité peuvent être distingués fonctionnellement sans être séparés ontologiquement dans le Mytho.",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "invariant:KK-116",
+      "type": "assertion",
+      "status": "CANON_CURRENT_CLARIFICATION",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk-116"
+        },
+        "predicate": "kk.canon.invariant_text",
+        "object": {
+          "kind": "string",
+          "value": "KK_PRINCIPLE, KK_PERSONA, AUTHOR_REAL, COLIN et NINJA constituent une même continuité identitaire dans le Kristal Univers; leurs noms indiquent des modes ou fonctions.",
+          "language": "fr"
+        }
+      }
+    },
+    {
+      "ref": "invariant:KK-131",
+      "type": "assertion",
+      "status": "CANON_CURRENT_CLARIFICATION",
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "urn:king-klown:kk-131"
+        },
+        "predicate": "kk.canon.invariant_text",
+        "object": {
+          "kind": "string",
+          "value": "Aïda Mansour (L’Asile) et Aïda Éloïse (Mythos/Konvergence) sont des entités distinctes tant qu’une clarification future ne les unifie pas.",
+          "language": "fr"
+        }
+      }
+    }
+  ]
+}

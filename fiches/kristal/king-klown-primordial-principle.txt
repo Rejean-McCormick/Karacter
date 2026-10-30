@@ -1,0 +1,371 @@
+KARACTER CHARACTER SHEET v6
+
+Edit plain-text sections below; the JSON record preserves the full profile, provenance and creative interpretation. Portrait binaries are not included.
+
+[NAME]
+King Klown — Primordial Principle
+[/NAME]
+
+[ROLE]
+A symbolic metaphysical creative principle rather than a separate human person
+[/ROLE]
+
+[MOTIVATION]
+Represent the ongoing process of creation, differentiation and recomposition within this fictional cosmology.
+[/MOTIVATION]
+
+[FEAR]
+Not defined as a human emotion; creative reinterpretation: reduction of an open principle to an absolute ruler.
+[/FEAR]
+
+[REACTION]
+In a symbolic scene, opens a new relation rather than commanding outcomes.
+[/REACTION]
+
+[DESIRE]
+Connect seemingly opposed creative forces.
+[/DESIRE]
+
+[NEED]
+Remain a symbolic layer, not a science claim or sovereign mandate.
+[/NEED]
+
+[CONTRADICTION]
+The principle both catalyzes separation and calls forth equal recomposition.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+Abstract non-human symbolic presence: white light refracting into many colors across an impossible circular geometry and slowly mutating fractal spirals.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "ce70386e-6566-541d-a344-8cb4710fe633",
+  "identity": {
+    "name": "King Klown — Primordial Principle",
+    "collectionId": "263c4ed4-06d6-5e03-954d-f48f7011808d",
+    "role": "A symbolic metaphysical creative principle rather than a separate human person",
+    "archetypeId": null,
+    "keywords": [
+      "metaphysical",
+      "white-light",
+      "fractals",
+      "creative-principle",
+      "mythic"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Entering conversations",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Responding to surprises",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 0,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Balancing group priorities",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Showing intense feelings",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 0,
+      "appliesWhen": "Approaching a new problem",
+      "source": "creative-proposal",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Represent the ongoing process of creation, differentiation and recomposition within this fictional cosmology.",
+    "values": [
+      "creative possibility",
+      "non-domination",
+      "difference",
+      "relation"
+    ],
+    "fear": "Not defined as a human emotion; creative reinterpretation: reduction of an open principle to an absolute ruler.",
+    "habitualReaction": "In a symbolic scene, opens a new relation rather than commanding outcomes."
+  },
+  "narrative": {
+    "desire": "Connect seemingly opposed creative forces.",
+    "need": "Remain a symbolic layer, not a science claim or sovereign mandate.",
+    "limitingBelief": "Creative proposal: unity appears impossible without division.",
+    "contradiction": "The principle both catalyzes separation and calls forth equal recomposition.",
+    "turningPoint": "The mythic image of white light differentiates into many divine colors.",
+    "possibleGrowth": "A literary change in how the principle is understood, not a psychological diagnosis."
+  },
+  "visualSignature": {
+    "description": "Abstract non-human symbolic presence: white light refracting into many colors across an impossible circular geometry and slowly mutating fractal spirals.",
+    "identityAnchors": [
+      "white light",
+      "perfect circular geometry",
+      "fractally changing spirals"
+    ],
+    "exclusions": [
+      "human portrait required",
+      "scientific proof claim",
+      "divine throne hierarchy"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T12:00:00Z",
+  "updatedAt": "2026-10-30T12:00:00Z",
+  "extensions": {
+    "kristal": {
+      "sourcePackage": "Kristal King Klown 4.2.0 MEDIA / State v9",
+      "sourceEntityId": "KK_CONTINUITY",
+      "identityContinuity": "KK_CONTINUITY",
+      "profileKind": "symbolic-continuity-mode",
+      "sourceRefs": [
+        "claim:C001",
+        "claim:C002",
+        "claim:C007",
+        "claim:C020",
+        "claim:C022",
+        "invariant:KK-100",
+        "invariant:KK-105",
+        "U001",
+        "U030"
+      ],
+      "evidenceSummary": "The primordial creator principle, white light/differentiated colors and the rupture/AIME counterforce are internal cosmological canon, not empirical science.",
+      "creativeNote": "This is a symbolic aspect of the SAME continuity as King Klown, not an independent individual.",
+      "sourceStatus": "CANON / CANON_CURRENT_CLARIFICATION",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — not measured and not canonical",
+      "visualStatus": "SYMBOLIC_CREATIVE_PROPOSAL"
+    }
+  }
+}
+[/JSON_RECORD]

@@ -25,3 +25,6 @@
 @media(max-width:780px){.storyIntro{padding:15px}.storyIntro h2{font-size:21px}nav button{flex:1 1 27%}}
 
 .polarityContexts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.polarityContexts>div{border:1px solid var(--stroke);background:#f8fbf8;padding:10px;border-radius:10px;min-width:0}.polarityContexts strong{font-size:12px}.polarityContexts p{font-size:11px;margin:6px 0;line-height:1.5}.polarityContexts .hint{color:#7c604d}.presetGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.presetOption{min-height:55px;background:#edf4ee;border:1px solid var(--stroke);border-radius:10px;white-space:normal;font-weight:700}.presetOption:hover{background:#dcece0}@media(max-width:650px){.polarityContexts,.presetGrid{grid-template-columns:1fr}}
+
+/* Source provenance and optional universe import */
+.kristalSource code{display:inline-block;font-size:11px;max-width:100%;overflow-wrap:anywhere;background:#e9f0e7;padding:3px 5px;border-radius:5px;margin:3px}.kristalSource p{margin:8px 0;line-height:1.6}.kristalSource details{margin-top:13px}.kristalImport{margin-top:8px;border-color:#7aa49a;color:#185b56;background:#eef6f3}
