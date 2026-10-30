@@ -45,6 +45,6 @@ The supplied canon repository does **not** yet designate a public reuse licence.
 
 ## Installation / import
 
-On a fresh install, the added Canon profiles appear alongside the 19 Kristal MEDIA characters. For an existing install, press **Import King Klown Canon** in the sidebar. The operation is additive, rerunnable, and preserves your edited characters and portraits.
+On a fresh install, the Canon profiles are present alongside the Kristal MEDIA characters. On an existing installation, Karacter 7.3 adds any missing built-in profiles once, preserving edited characters and portraits. Use the multi-select universe chips in the sidebar to display the Canon, Kristal, or both. No special import button is required.
 
 Profile source tags appear on the Create page.

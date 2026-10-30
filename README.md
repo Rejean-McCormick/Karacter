@@ -1,3 +1,15 @@
+# Karacter 7.4 — King Klown & Blank Universe
+
+Karacter ships with **two default universes in this order**: **King Klown** (all source-aware characters from the Kristal MEDIA and King Clown Canon packs), followed by **Blank Universe** (one minimal, editable starter profile named **John Doe**). The old `kOA`, `Kristal MEDIA`, and `Canon` universe categories are combined in the **King Klown** filter. Their source evidence and annotations remain inside the character profiles.
+
+No universe-import buttons are needed. The single **Import file** action remains for standardized TXT, JSON and ZIP files. The sidebar supports one, several or all universes. Switching filters only changes the displayed characters, never their stored data.
+
+**Existing installs:** a one-time non-destructive migration reassigns built-in King Klown profiles to the unified category and adds John Doe. Existing character IDs, personal edits, portraits, relationships, canon memories, and third-party/custom universes are preserved. The earlier sample Mira is **not** added to fresh installations, but if you already have her saved, she is preserved under King Klown as a legacy example rather than silently deleted. Once migrated, deliberately deleted characters do not reappear automatically.
+
+A single **Import file** button accepts standardized TXT, JSON or ZIP. **Backup / Export** contains only export functions.
+
+---
+
 # Karacter 7.0 — Character Psychology Studio
 
 **Create. Understand. Simulate. Remember. Evolve. Visualize.**
@@ -88,10 +100,10 @@ Read [the release specification](docs/RELEASE_7_0.md), [implementation status](d
 
 ## Kristal King Klown universe pack (7.1)
 
-This distribution includes **19 source-aware character design profiles** and **18 relationships** based on the supplied Kristal MEDIA 4.2.0 archive. Fresh installations receive them as example profiles; existing users can use **Import Kristal universe** from the sidebar without overwriting existing character fields or portrait images.
+This distribution includes **19 source-aware character design profiles** and **18 relationships** based on the supplied Kristal MEDIA 4.2.0 archive. They are installed automatically for new workspaces; on the first 7.3 launch, existing collections receive any missing built-in profiles without overwriting their edited fields or portraits.
 
 The source archive contained **no portrait images**. Most personality scores and visual suggestions are imaginative proposals, explicitly identified as such, and must not be mistaken for Kristal canon. Read [the universe evidence policy](docs/universe/README.md) and [the character index](docs/universe/CHARACTER_INDEX.md).
 
 ## King Clown Canon extension — v7.2
 
-Added 20 individual profiles based on the newly provided King Clown Canon sources, including seventeen mythic source figures, Réjean McCormick, Elias and Gabriel Lajoie. New installs include them; existing collections can use **Import King Klown Canon** without overwriting saved profiles. The Canon and Kristal MEDIA imports remain separate. Read `docs/universe/KING_CLOWN_CANON_CATALOGUE.md` for evidence and creative-vs-canon boundaries.
+Added 20 individual profiles based on the newly provided King Clown Canon sources, including seventeen mythic source figures, Réjean McCormick, Elias and Gabriel Lajoie. New installs include them; existing collections receive missing profiles automatically once on upgrading to 7.3. There are no separate import actions for bundled universes. Read `docs/universe/KING_CLOWN_CANON_CATALOGUE.md` for evidence and creative-vs-canon boundaries.

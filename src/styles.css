@@ -28,3 +28,13 @@
 
 /* Source provenance and optional universe import */
 .kristalSource code{display:inline-block;font-size:11px;max-width:100%;overflow-wrap:anywhere;background:#e9f0e7;padding:3px 5px;border-radius:5px;margin:3px}.kristalSource p{margin:8px 0;line-height:1.6}.kristalSource details{margin-top:13px}.kristalImport{margin-top:8px;border-color:#7aa49a;color:#185b56;background:#eef6f3}
+
+/* Karacter 7.3: selectable universe chips (multiple universes simultaneously). */
+.universe-filter{margin-top:16px;padding:12px 0;border-top:1px solid var(--stroke)}
+.universe-title{font-weight:850;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);margin-bottom:8px}
+.universe-chips{display:flex;flex-wrap:wrap;gap:6px}
+.universe-chip{font-size:11px;min-height:34px;max-width:100%;white-space:normal;text-align:left;padding:7px 9px;line-height:1.3;background:#fff;border:1px solid var(--stroke);color:var(--secondary);border-radius:999px}
+.universe-chip:hover{background:#e8f3ec}.universe-chip.active{background:var(--teal);border-color:var(--teal);color:#fff}
+.universe-chip span{display:inline-block;opacity:.8;font-size:10px;margin-left:3px}
+.universe-hint{margin:9px 0 2px;color:var(--secondary);font-size:11px;line-height:1.4}
+@media(max-width:780px){.universe-filter{margin-top:12px}.universe-chips{max-width:100%}}

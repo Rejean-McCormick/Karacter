@@ -1,10 +1,10 @@
 {
   "name": "karacter-studio",
-  "version": "7.2.0",
+  "version": "7.4.0",
   "private": true,
-  "description": "Offline bilingual character psychology studio with narrative memory",
+  "description": "Offline bilingual character studio with two default universes, migration-safe",
   "scripts": {
-    "test": "node tests/core.test.cjs && node tests/storage.test.cjs && node tests/narrative.test.cjs && node tests/kristal-pack.test.cjs && node tests/canon-pack.test.cjs",
+    "test": "node tests/core.test.cjs && node tests/storage.test.cjs && node tests/narrative.test.cjs && node tests/kristal-pack.test.cjs && node tests/canon-pack.test.cjs && node tests/universes.test.cjs",
     "serve": "python -m http.server 8080"
   },
   "engines": {

@@ -1,3 +1,11 @@
+# Version 7.4 — King Klown + Blank Universe
+
+- Unified default universes and preserved per-profile source provenance.
+- Added minimal John Doe and non-destructive one-time layout migration.
+- Kept one standardized file import action and multi-select universe filters.
+- Preserved prior authored Mira; excluded sample Mira from fresh workspaces.
+- Added migration and UI tests.
+
 ## 7.0.0 — Narrative Studio
 
 - Canonical story timeline, context-sensitive reactions, author-approved growth, axis ordering, templates, batch images, bilingual narrative suggestions.

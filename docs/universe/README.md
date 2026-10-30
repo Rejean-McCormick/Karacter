@@ -15,7 +15,7 @@ This pack is an **interpretive character-design layer**, not a modification of t
 
 ## Usage
 
-On a new installation, the profiles are available on the first launch. On an existing installation, press **Import Kristal universe** in the sidebar to add missing profiles **without overwriting existing character text or portraits**. The import button may be used repeatedly without creating duplicates.
+The profiles are built into the application. On an existing installation, Karacter 7.3 adds missing bundled characters on first launch without overwriting edited text or portraits. Select one or more universes using the sidebar chips; there is no longer a separate import button for built-in universes.
 
 Each profile has a traceable information panel in the Create screen. Plain-text sheets are in `fiches/kristal/`. Complete machine-readable pack: `data/kristal-kk-media-pack.json`. Supporting source excerpts: `data/kristal-source-evidence.json`.
 
