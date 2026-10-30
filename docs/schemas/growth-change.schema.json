@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Explicitly applied belief evolution",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "createdAt",
+    "characterId",
+    "milestoneId",
+    "field",
+    "before",
+    "after"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "characterId": {
+      "type": "string"
+    },
+    "milestoneId": {
+      "type": "string"
+    },
+    "field": {
+      "const": "limitingBelief"
+    },
+    "before": {
+      "type": "string"
+    },
+    "after": {
+      "type": "string"
+    }
+  },
+  "$id": "https://karacter.local/schemas/growth-change.schema.json"
+}

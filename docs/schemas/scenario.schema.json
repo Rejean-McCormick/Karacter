@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/scenario.schema.json",
+  "title": "Fictional scenario definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "context",
+    "keyQuestion",
+    "defaultStakes",
+    "tags",
+    "isBuiltIn"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "context": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 8192
+    },
+    "keyQuestion": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "defaultStakes": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 25,
+      "items": {
+        "type": "string",
+        "minLength": 0,
+        "maxLength": 800
+      }
+    },
+    "isBuiltIn": {
+      "type": "boolean"
+    }
+  }
+}

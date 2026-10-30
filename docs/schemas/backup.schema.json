@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/backup.schema.json",
+  "title": "Portable Karacter 6 backup",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "schemaVersion",
+    "exportedAt",
+    "workspace",
+    "assets",
+    "manifest"
+  ],
+  "properties": {
+    "format": {
+      "const": "KaracterBackup"
+    },
+    "schemaVersion": {
+      "const": 6
+    },
+    "exportedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "workspace": {
+      "$ref": "workspace.schema.json"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "assetId",
+          "mediaType",
+          "sha256",
+          "dataBase64"
+        ],
+        "properties": {
+          "assetId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "mediaType": {
+            "type": "string",
+            "enum": [
+              "image/png",
+              "image/jpeg",
+              "image/webp",
+              "image/avif"
+            ]
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "dataBase64": {
+            "type": "string",
+            "contentEncoding": "base64"
+          }
+        }
+      }
+    },
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "characterCount",
+        "imageCount",
+        "appVersion"
+      ],
+      "properties": {
+        "characterCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "imageCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "appVersion": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        }
+      }
+    }
+  }
+}

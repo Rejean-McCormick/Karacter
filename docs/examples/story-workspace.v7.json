@@ -1,0 +1,1007 @@
+{
+  "workspaceId": "88888888-8888-4888-8888-888888888888",
+  "characters": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "identity": {
+        "name": "King Klown",
+        "collectionId": "33333333-3333-4333-8333-333333333333",
+        "role": "Benevolent cosmic trickster and strategic guardian",
+        "archetypeId": null,
+        "keywords": [
+          "playful",
+          "wise",
+          "unpredictable",
+          "charismatic",
+          "mysterious"
+        ]
+      },
+      "polarities": [
+        {
+          "id": "caution-boldness",
+          "left": {
+            "label": "Caution",
+            "visualCues": [
+              "measured stance"
+            ],
+            "canHelpWhen": [
+              "Caution can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Caution can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Boldness",
+            "visualCues": [
+              "steps toward uncertainty"
+            ],
+            "canHelpWhen": [
+              "Boldness can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Boldness can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 1,
+          "appliesWhen": "Facing uncertainty or potential danger",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "reserve-expression",
+          "left": {
+            "label": "Reserve",
+            "visualCues": [
+              "observant presence"
+            ],
+            "canHelpWhen": [
+              "Reserve can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Reserve can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Expressiveness",
+            "visualCues": [
+              "open engaging gestures"
+            ],
+            "canHelpWhen": [
+              "Expressiveness can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Expressiveness can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 1,
+          "appliesWhen": "Entering conversations",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "reflection-spontaneity",
+          "left": {
+            "label": "Reflection",
+            "visualCues": [
+              "thoughtful pause"
+            ],
+            "canHelpWhen": [
+              "Reflection can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Reflection can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Spontaneity",
+            "visualCues": [
+              "unexpected playful movement"
+            ],
+            "canHelpWhen": [
+              "Spontaneity can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Spontaneity can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 3,
+          "appliesWhen": "Responding to surprises",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "familiarity-exploration",
+          "left": {
+            "label": "Familiarity",
+            "visualCues": [
+              "recognizable ritual"
+            ],
+            "canHelpWhen": [
+              "Familiarity can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Familiarity can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Exploration",
+            "visualCues": [
+              "searching gaze"
+            ],
+            "canHelpWhen": [
+              "Exploration can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Exploration can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 0,
+          "appliesWhen": "Discovering an unknown possibility",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "objectives-relationships",
+          "left": {
+            "label": "Task focus",
+            "visualCues": [
+              "goal-focused gesture"
+            ],
+            "canHelpWhen": [
+              "Task focus can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Task focus can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Relationship focus",
+            "visualCues": [
+              "attentive interaction"
+            ],
+            "canHelpWhen": [
+              "Relationship focus can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Relationship focus can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 2,
+          "appliesWhen": "Balancing group priorities",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "containment-expression",
+          "left": {
+            "label": "Emotional containment",
+            "visualCues": [
+              "subtle expression"
+            ],
+            "canHelpWhen": [
+              "Emotional containment can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Emotional containment can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Emotional expression",
+            "visualCues": [
+              "readable feeling"
+            ],
+            "canHelpWhen": [
+              "Emotional expression can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Emotional expression can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 3,
+          "appliesWhen": "Showing intense feelings",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "speed-patience",
+          "left": {
+            "label": "Quick pace",
+            "visualCues": [
+              "quick ready posture"
+            ],
+            "canHelpWhen": [
+              "Quick pace can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Quick pace can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Patient pace",
+            "visualCues": [
+              "settled sustained focus"
+            ],
+            "canHelpWhen": [
+              "Patient pace can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Patient pace can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 3,
+          "appliesWhen": "Choosing the rhythm of a task",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "practicality-imagination",
+          "left": {
+            "label": "Practicality",
+            "visualCues": [
+              "practical props"
+            ],
+            "canHelpWhen": [
+              "Practicality can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Practicality can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Imagination",
+            "visualCues": [
+              "inventive cosmic motifs"
+            ],
+            "canHelpWhen": [
+              "Imagination can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Imagination can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 1,
+          "appliesWhen": "Approaching a new problem",
+          "source": "template",
+          "migrationReviewRequired": false
+        }
+      ],
+      "emotionalPalette": [
+        "curious",
+        "calm",
+        "joyful",
+        "concerned"
+      ],
+      "innerWorld": {
+        "motivation": "Guide others through uncertainty while protecting collective freedom and the balance of chaos and order.",
+        "values": [
+          "freedom",
+          "collective well-being",
+          "wonder",
+          "responsibility"
+        ],
+        "fear": "Rigid order or purposeless chaos; being misunderstood by those he tries to protect.",
+        "habitualReaction": "A playful question or misdirection followed by a quietly considered plan."
+      },
+      "narrative": {
+        "desire": "Preserve the community’s freedom and stability.",
+        "need": "Trust others to make their own informed choices.",
+        "limitingBelief": "Only subtle manipulation can keep people safe.",
+        "contradiction": "He protects freedom while covertly steering the choices of others.",
+        "turningPoint": "A trusted companion confronts him about a secret intervention.",
+        "possibleGrowth": "Guide openly and make room for decisions he would not personally choose."
+      },
+      "visualSignature": {
+        "description": "Very tall, imposing cosmic trickster with hypnotic eyes, black/silver/teal wavy hair, a long coat with luminous spirals and constellations; ethereal yet grounded.",
+        "identityAnchors": [
+          "teal #1e6864",
+          "black, silver and teal wavy hair",
+          "hypnotic eyes",
+          "long celestial coat",
+          "spirals and fractals"
+        ],
+        "exclusions": [
+          "not a generic circus clown",
+          "avoid real brands"
+        ]
+      },
+      "milestones": [
+        {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "title": "The challenge of transparency",
+          "order": 0,
+          "event": "An ally asks whether he secretly steered a difficult decision.",
+          "beliefBefore": "Only hidden guidance is safe.",
+          "beliefAfter": "Honest guidance may be stronger than hidden control.",
+          "behaviorChoice": "He offers the group an explicit choice.",
+          "relationshipIds": [
+            "44444444-4444-4444-8444-444444444444"
+          ],
+          "notes": "Proposed fictional arc; not a clinical personality change."
+        }
+      ],
+      "createdAt": "2026-10-29T20:00:00Z",
+      "updatedAt": "2026-10-29T20:00:00Z"
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "identity": {
+        "name": "Mira",
+        "collectionId": "33333333-3333-4333-8333-333333333333",
+        "role": "Reflective protector",
+        "archetypeId": null,
+        "keywords": [
+          "loyal",
+          "patient",
+          "attentive"
+        ]
+      },
+      "polarities": [
+        {
+          "id": "caution-boldness",
+          "left": {
+            "label": "Caution",
+            "visualCues": [
+              "checks surroundings"
+            ],
+            "canHelpWhen": [
+              "Caution can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Caution can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Boldness",
+            "visualCues": [
+              "steps forward"
+            ],
+            "canHelpWhen": [
+              "Boldness can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Boldness can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 5,
+          "appliesWhen": "Facing uncertainty or potential danger",
+          "source": "template",
+          "migrationReviewRequired": false
+        },
+        {
+          "id": "reflection-spontaneity",
+          "left": {
+            "label": "Reflection",
+            "visualCues": [
+              "takes time to think"
+            ],
+            "canHelpWhen": [
+              "Reflection can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Reflection can complicate another kind of situation"
+            ]
+          },
+          "right": {
+            "label": "Spontaneity",
+            "visualCues": [
+              "quick response"
+            ],
+            "canHelpWhen": [
+              "Spontaneity can help when the scene calls for it"
+            ],
+            "canComplicateWhen": [
+              "Spontaneity can complicate another kind of situation"
+            ]
+          },
+          "leftScore": 5,
+          "appliesWhen": "Responding to surprises",
+          "source": "template",
+          "migrationReviewRequired": false
+        }
+      ],
+      "emotionalPalette": [
+        "calm",
+        "concerned"
+      ],
+      "innerWorld": {
+        "motivation": "Protect her companions fairly.",
+        "values": [
+          "care",
+          "justice"
+        ],
+        "fear": "Failing someone who depends on her.",
+        "habitualReaction": "Listen, examine the situation and propose a careful solution."
+      },
+      "narrative": {
+        "desire": "Keep her companions safe.",
+        "need": "Accept that not every outcome can be controlled.",
+        "limitingBelief": "I must always prevent mistakes.",
+        "contradiction": "She values growth but may shield friends from useful risk.",
+        "turningPoint": "A companion asks her to let them try alone.",
+        "possibleGrowth": "Offer support without deciding for others."
+      },
+      "visualSignature": {
+        "description": "Kind expression, dark blue jacket, small notebook.",
+        "identityAnchors": [
+          "dark blue jacket",
+          "small notebook"
+        ],
+        "exclusions": []
+      },
+      "milestones": [],
+      "createdAt": "2026-10-29T20:00:00Z",
+      "updatedAt": "2026-10-29T20:00:00Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "33333333-3333-4333-8333-333333333333",
+      "name": "kOA",
+      "description": "Original cosmic characters"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "44444444-4444-4444-8444-444444444444",
+      "sourceCharacterId": "11111111-1111-4111-8111-111111111111",
+      "targetCharacterId": "22222222-2222-4222-8222-222222222222",
+      "type": "mentor",
+      "label": "Playful mentor and thoughtful protege",
+      "context": "King Klown challenges Mira to question comfortable answers while respecting her careful judgment.",
+      "history": "They have solved difficult dilemmas together.",
+      "trustNote": "Mutual respect with occasional uncertainty.",
+      "tensionNote": "Mira dislikes hidden manipulation.",
+      "isReciprocalDescription": false,
+      "updatedAt": "2026-10-29T20:00:00Z"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "55555555-5555-4555-8555-555555555555",
+      "title": "A secret plan is revealed",
+      "context": "During a community meeting, someone asks the characters to disclose a secret plan before any more choices are made.",
+      "keyQuestion": "How can the group decide freely and safely?",
+      "defaultStakes": "high",
+      "tags": [
+        "freedom",
+        "trust",
+        "uncertainty"
+      ],
+      "isBuiltIn": false
+    }
+  ],
+  "simulationRuns": [
+    {
+      "id": "e14e7dbc-f00a-4b47-b7e1-3b5bbdee5aba",
+      "engineVersion": "context-2.0",
+      "createdAt": "2026-10-30T16:51:14.158Z",
+      "characterId": "11111111-1111-4111-8111-111111111111",
+      "scenarioId": "55555555-5555-4555-8555-555555555555",
+      "stakes": "medium",
+      "inputsHash": "1efd7623fa8725bb313500a579c7749741ee5d26c9c3ff8b28d71bacaea178da",
+      "characterSnapshot": {
+        "id": "11111111-1111-4111-8111-111111111111",
+        "identity": {
+          "name": "King Klown",
+          "collectionId": "33333333-3333-4333-8333-333333333333",
+          "role": "Benevolent cosmic trickster and strategic guardian",
+          "archetypeId": null,
+          "keywords": [
+            "playful",
+            "wise",
+            "unpredictable",
+            "charismatic",
+            "mysterious"
+          ]
+        },
+        "polarities": [
+          {
+            "id": "caution-boldness",
+            "left": {
+              "label": "Caution",
+              "visualCues": [
+                "measured stance"
+              ],
+              "canHelpWhen": [
+                "Caution can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Caution can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Boldness",
+              "visualCues": [
+                "steps toward uncertainty"
+              ],
+              "canHelpWhen": [
+                "Boldness can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Boldness can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 1,
+            "appliesWhen": "Facing uncertainty or potential danger",
+            "source": "template",
+            "migrationReviewRequired": false
+          },
+          {
+            "id": "reserve-expression",
+            "left": {
+              "label": "Reserve",
+              "visualCues": [
+                "observant presence"
+              ],
+              "canHelpWhen": [
+                "Reserve can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Reserve can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Expressiveness",
+              "visualCues": [
+                "open engaging gestures"
+              ],
+              "canHelpWhen": [
+                "Expressiveness can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Expressiveness can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 1,
+            "appliesWhen": "Entering conversations",
+            "source": "template",
+            "migrationReviewRequired": false
+          },
+          {
+            "id": "reflection-spontaneity",
+            "left": {
+              "label": "Reflection",
+              "visualCues": [
+                "thoughtful pause"
+              ],
+              "canHelpWhen": [
+                "Reflection can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Reflection can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Spontaneity",
+              "visualCues": [
+                "unexpected playful movement"
+              ],
+              "canHelpWhen": [
+                "Spontaneity can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Spontaneity can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 3,
+            "appliesWhen": "Responding to surprises",
+            "source": "template",
+            "migrationReviewRequired": false
+          },
+          {
+            "id": "familiarity-exploration",
+            "left": {
+              "label": "Familiarity",
+              "visualCues": [
+                "recognizable ritual"
+              ],
+              "canHelpWhen": [
+                "Familiarity can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Familiarity can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Exploration",
+              "visualCues": [
+                "searching gaze"
+              ],
+              "canHelpWhen": [
+                "Exploration can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Exploration can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 0,
+            "appliesWhen": "Discovering an unknown possibility",
+            "source": "template",
+            "migrationReviewRequired": false
+          },
+          {
+            "id": "objectives-relationships",
+            "left": {
+              "label": "Task focus",
+              "visualCues": [
+                "goal-focused gesture"
+              ],
+              "canHelpWhen": [
+                "Task focus can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Task focus can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Relationship focus",
+              "visualCues": [
+                "attentive interaction"
+              ],
+              "canHelpWhen": [
+                "Relationship focus can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Relationship focus can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 2,
+            "appliesWhen": "Balancing group priorities",
+            "source": "template",
+            "migrationReviewRequired": false
+          },
+          {
+            "id": "containment-expression",
+            "left": {
+              "label": "Emotional containment",
+              "visualCues": [
+                "subtle expression"
+              ],
+              "canHelpWhen": [
+                "Emotional containment can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Emotional containment can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Emotional expression",
+              "visualCues": [
+                "readable feeling"
+              ],
+              "canHelpWhen": [
+                "Emotional expression can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Emotional expression can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 3,
+            "appliesWhen": "Showing intense feelings",
+            "source": "template",
+            "migrationReviewRequired": false
+          },
+          {
+            "id": "speed-patience",
+            "left": {
+              "label": "Quick pace",
+              "visualCues": [
+                "quick ready posture"
+              ],
+              "canHelpWhen": [
+                "Quick pace can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Quick pace can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Patient pace",
+              "visualCues": [
+                "settled sustained focus"
+              ],
+              "canHelpWhen": [
+                "Patient pace can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Patient pace can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 3,
+            "appliesWhen": "Choosing the rhythm of a task",
+            "source": "template",
+            "migrationReviewRequired": false
+          },
+          {
+            "id": "practicality-imagination",
+            "left": {
+              "label": "Practicality",
+              "visualCues": [
+                "practical props"
+              ],
+              "canHelpWhen": [
+                "Practicality can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Practicality can complicate another kind of situation"
+              ]
+            },
+            "right": {
+              "label": "Imagination",
+              "visualCues": [
+                "inventive cosmic motifs"
+              ],
+              "canHelpWhen": [
+                "Imagination can help when the scene calls for it"
+              ],
+              "canComplicateWhen": [
+                "Imagination can complicate another kind of situation"
+              ]
+            },
+            "leftScore": 1,
+            "appliesWhen": "Approaching a new problem",
+            "source": "template",
+            "migrationReviewRequired": false
+          }
+        ],
+        "emotionalPalette": [
+          "curious",
+          "calm",
+          "joyful",
+          "concerned"
+        ],
+        "innerWorld": {
+          "motivation": "Guide others through uncertainty while protecting collective freedom and the balance of chaos and order.",
+          "values": [
+            "freedom",
+            "collective well-being",
+            "wonder",
+            "responsibility"
+          ],
+          "fear": "Rigid order or purposeless chaos; being misunderstood by those he tries to protect.",
+          "habitualReaction": "A playful question or misdirection followed by a quietly considered plan."
+        },
+        "narrative": {
+          "desire": "Preserve the community’s freedom and stability.",
+          "need": "Trust others to make their own informed choices.",
+          "limitingBelief": "Only subtle manipulation can keep people safe.",
+          "contradiction": "He protects freedom while covertly steering the choices of others.",
+          "turningPoint": "A trusted companion confronts him about a secret intervention.",
+          "possibleGrowth": "Guide openly and make room for decisions he would not personally choose."
+        },
+        "visualSignature": {
+          "description": "Very tall, imposing cosmic trickster with hypnotic eyes, black/silver/teal wavy hair, a long coat with luminous spirals and constellations; ethereal yet grounded.",
+          "identityAnchors": [
+            "teal #1e6864",
+            "black, silver and teal wavy hair",
+            "hypnotic eyes",
+            "long celestial coat",
+            "spirals and fractals"
+          ],
+          "exclusions": [
+            "not a generic circus clown",
+            "avoid real brands"
+          ]
+        },
+        "milestones": [
+          {
+            "id": "77777777-7777-4777-8777-777777777777",
+            "title": "The challenge of transparency",
+            "order": 0,
+            "event": "An ally asks whether he secretly steered a difficult decision.",
+            "beliefBefore": "Only hidden guidance is safe.",
+            "beliefAfter": "Honest guidance may be stronger than hidden control.",
+            "behaviorChoice": "He offers the group an explicit choice.",
+            "relationshipIds": [
+              "44444444-4444-4444-8444-444444444444"
+            ],
+            "notes": "Proposed fictional arc; not a clinical personality change."
+          }
+        ],
+        "createdAt": "2026-10-29T20:00:00Z",
+        "updatedAt": "2026-10-29T20:00:00Z"
+      },
+      "scenarioSnapshot": {
+        "id": "55555555-5555-4555-8555-555555555555",
+        "title": "A secret plan is revealed",
+        "context": "During a community meeting, someone asks the characters to disclose a secret plan before any more choices are made.",
+        "keyQuestion": "How can the group decide freely and safely?",
+        "defaultStakes": "high",
+        "tags": [
+          "freedom",
+          "trust",
+          "uncertainty"
+        ],
+        "isBuiltIn": false
+      },
+      "candidates": [
+        {
+          "id": "habitual-candidate",
+          "path": "habitual",
+          "feelings": [
+            "curious",
+            "calm"
+          ],
+          "interpretation": "The relationship or decision matters. Their motivation is Guide others through uncertainty while protecting collective freedom and the balance of chaos and order. There is room to consider what is most important before reacting.",
+          "action": "An instinctive first move: A playful question or misdirection followed by a quietly considered plan. They emphasize boldness here. They begin with their established habit: A playful question or misdirection followed by a quietly considered plan..",
+          "underlyingNeed": "freedom",
+          "tension": "He protects freedom while covertly steering the choices of others.",
+          "possibleUpside": "Boldness can help when the scene calls for it",
+          "possibleTradeoff": "A familiar reaction may overlook a new possibility.",
+          "evidence": [
+            {
+              "sourceType": "character",
+              "sourcePath": "innerWorld.habitualReaction",
+              "reason": "Based on the character’s written habitual reaction",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "character",
+              "sourcePath": "polarities[caution-boldness].leftScore",
+              "reason": "The scene makes the Caution / Boldness preference relevant (score 1/5).",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "scenario",
+              "sourcePath": "scenario.context",
+              "reason": "The same factual scenario is used for each possible response",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "scenario",
+              "sourcePath": "scenario.context",
+              "reason": "Context cues: social.",
+              "status": "interpretation"
+            },
+            {
+              "sourceType": "character",
+              "sourcePath": "polarities.reserve",
+              "reason": "The scene involves others; social preferences may guide attention.",
+              "status": "interpretation"
+            }
+          ],
+          "userEdited": false,
+          "locked": false
+        },
+        {
+          "id": "deliberate-alternative-candidate",
+          "path": "deliberate-alternative",
+          "feelings": [
+            "curious",
+            "calm"
+          ],
+          "interpretation": "The relationship or decision matters. They consider what they need to learn: Trust others to make their own informed choices. The character could prioritize being understood while leaving room for the other person’s perspective.",
+          "action": "A conscious alternative: Instead of the first impulse, they choose caution to explore Caution can help when the scene calls for it. They pause to hear what this situation specifically requires. They ask the other person what they need before deciding on a response.",
+          "underlyingNeed": "Trust others to make their own informed choices.",
+          "tension": "He protects freedom while covertly steering the choices of others.",
+          "possibleUpside": "Caution can help when the scene calls for it",
+          "possibleTradeoff": "Their openness can make them vulnerable or delay a necessary decision.",
+          "evidence": [
+            {
+              "sourceType": "character",
+              "sourcePath": "narrative.need",
+              "reason": "The alternative responds to an explicitly authored need",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "character",
+              "sourcePath": "polarities[caution-boldness].leftScore",
+              "reason": "The scene makes the Caution / Boldness preference relevant (score 1/5).",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "scenario",
+              "sourcePath": "scenario.context",
+              "reason": "The same factual scenario is used for each possible response",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "scenario",
+              "sourcePath": "scenario.context",
+              "reason": "Context cues: social.",
+              "status": "interpretation"
+            },
+            {
+              "sourceType": "character",
+              "sourcePath": "polarities.reserve",
+              "reason": "The scene involves others; social preferences may guide attention.",
+              "status": "interpretation"
+            }
+          ],
+          "userEdited": false,
+          "locked": false
+        },
+        {
+          "id": "surprising-but-grounded-candidate",
+          "path": "surprising-but-grounded",
+          "feelings": [
+            "curious",
+            "calm"
+          ],
+          "interpretation": "The relationship or decision matters. A familiar belief is challenged: Only subtle manipulation can keep people safe. A surprising response can reveal values that are otherwise kept private.",
+          "action": "A less obvious possible response: They openly acknowledge uncertainty around He protects freedom while covertly steering the choices of others., and invite a new perspective before committing to a response. They disclose a hidden concern and make a decision that others did not expect.",
+          "underlyingNeed": "Guide openly and make room for decisions he would not personally choose.",
+          "tension": "He protects freedom while covertly steering the choices of others. Their choice may expose the gap between intention and behavior.",
+          "possibleUpside": "Boldness can help when the scene calls for it",
+          "possibleTradeoff": "A surprising choice may challenge trust or established expectations.",
+          "evidence": [
+            {
+              "sourceType": "character",
+              "sourcePath": "narrative.contradiction",
+              "reason": "This route is grounded in the authored internal contradiction",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "character",
+              "sourcePath": "polarities[caution-boldness].leftScore",
+              "reason": "The scene makes the Caution / Boldness preference relevant (score 1/5).",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "scenario",
+              "sourcePath": "scenario.context",
+              "reason": "The same factual scenario is used for each possible response",
+              "status": "authored-fact"
+            },
+            {
+              "sourceType": "scenario",
+              "sourcePath": "scenario.context",
+              "reason": "Context cues: social.",
+              "status": "interpretation"
+            },
+            {
+              "sourceType": "character",
+              "sourcePath": "polarities.reserve",
+              "reason": "The scene involves others; social preferences may guide attention.",
+              "status": "interpretation"
+            }
+          ],
+          "userEdited": false,
+          "locked": false
+        }
+      ]
+    }
+  ],
+  "comparisons": [],
+  "imageAssets": [],
+  "visualThemes": [
+    {
+      "id": "66666666-6666-4666-8666-666666666666",
+      "label": "Original",
+      "description": "Original coherent character universe without mandatory transformation.",
+      "builtIn": true
+    }
+  ],
+  "preferences": {
+    "locale": "en",
+    "depthMode": "studio",
+    "activeCharacterId": "11111111-1111-4111-8111-111111111111",
+    "activeThemeId": "66666666-6666-4666-8666-666666666666",
+    "imageMode": "portrait"
+  },
+  "extensions": {
+    "storyCanon": [
+      {
+        "id": "3705d552-4977-454a-83b9-9f1fb8026326",
+        "createdAt": "2026-10-30T16:51:14.162Z",
+        "characterId": "11111111-1111-4111-8111-111111111111",
+        "otherCharacterId": "22222222-2222-4222-8222-222222222222",
+        "scenarioId": "55555555-5555-4555-8555-555555555555",
+        "scenarioTitle": "A secret plan is revealed",
+        "runId": "e14e7dbc-f00a-4b47-b7e1-3b5bbdee5aba",
+        "candidatePath": "surprising-but-grounded",
+        "action": "A less obvious possible response: They openly acknowledge uncertainty around He protects freedom while covertly steering the choices of others., and invite a new perspective before committing to a response. They disclose a hidden concern and make a decision that others did not expect.",
+        "interpretation": "The relationship or decision matters. A familiar belief is challenged: Only subtle manipulation can keep people safe. A surprising response can reveal values that are otherwise kept private.",
+        "feelings": [
+          "curious",
+          "calm"
+        ],
+        "outcome": "The group chose to listen to both sides.",
+        "notes": "The author accepts this outcome.",
+        "relationshipEffect": "strengthened"
+      }
+    ],
+    "growthHistory": []
+  }
+}

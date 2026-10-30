@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/polarity.schema.json",
+  "title": "Paired context-sensitive polarity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "left",
+    "right",
+    "leftScore",
+    "appliesWhen",
+    "source",
+    "migrationReviewRequired"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "left": {
+      "$ref": "pole.schema.json"
+    },
+    "right": {
+      "$ref": "pole.schema.json"
+    },
+    "leftScore": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 6
+    },
+    "appliesWhen": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "template",
+        "custom",
+        "imported"
+      ]
+    },
+    "migrationReviewRequired": {
+      "type": "boolean"
+    }
+  }
+}

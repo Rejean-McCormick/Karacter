@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Author-accepted canonical story event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "createdAt",
+    "characterId",
+    "otherCharacterId",
+    "scenarioId",
+    "scenarioTitle",
+    "runId",
+    "candidatePath",
+    "action",
+    "interpretation",
+    "feelings",
+    "outcome",
+    "notes",
+    "relationshipEffect"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "characterId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "otherCharacterId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scenarioId": {
+      "type": "string"
+    },
+    "scenarioTitle": {
+      "type": "string"
+    },
+    "runId": {
+      "type": "string"
+    },
+    "candidatePath": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "interpretation": {
+      "type": "string"
+    },
+    "feelings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outcome": {
+      "type": "string",
+      "maxLength": 4000
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 4000
+    },
+    "relationshipEffect": {
+      "type": "string",
+      "enum": [
+        "unchanged",
+        "strengthened",
+        "strained",
+        "transformed"
+      ]
+    }
+  },
+  "$id": "https://karacter.local/schemas/story-event.schema.json"
+}

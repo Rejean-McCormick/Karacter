@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/narrative.schema.json",
+  "title": "Narrative core",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "desire",
+    "need",
+    "limitingBelief",
+    "contradiction",
+    "turningPoint",
+    "possibleGrowth"
+  ],
+  "properties": {
+    "desire": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "need": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "limitingBelief": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "contradiction": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "turningPoint": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "possibleGrowth": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    }
+  }
+}

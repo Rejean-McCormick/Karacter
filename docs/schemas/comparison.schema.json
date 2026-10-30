@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/comparison.schema.json",
+  "title": "Two-character comparison",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "createdAt",
+    "characterAId",
+    "characterBId",
+    "scenarioId",
+    "stakes",
+    "runAId",
+    "runBId",
+    "summary"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "characterAId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "characterBId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "scenarioId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "stakes": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "runAId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "runBId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

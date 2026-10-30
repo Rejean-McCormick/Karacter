@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/relationship.schema.json",
+  "title": "Narrative relationship",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "sourceCharacterId",
+    "targetCharacterId",
+    "type",
+    "label",
+    "context",
+    "history",
+    "trustNote",
+    "tensionNote",
+    "isReciprocalDescription",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "sourceCharacterId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "targetCharacterId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "ally",
+        "rival",
+        "mentor",
+        "protege",
+        "family",
+        "friend",
+        "adversary",
+        "complex",
+        "custom"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 200
+    },
+    "context": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "history": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "trustNote": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "tensionNote": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "isReciprocalDescription": {
+      "type": "boolean"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "karacter-studio",
+  "version": "7.0.0",
+  "private": true,
+  "description": "Offline bilingual character psychology studio with narrative memory",
+  "scripts": {
+    "test": "node tests/core.test.cjs && node tests/storage.test.cjs && node tests/narrative.test.cjs",
+    "serve": "python -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

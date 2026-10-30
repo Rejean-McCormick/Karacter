@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/workspace.schema.json",
+  "title": "Karacter 6 workspace document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "workspaceId",
+    "characters",
+    "collections",
+    "relationships",
+    "scenarios",
+    "simulationRuns",
+    "comparisons",
+    "imageAssets",
+    "visualThemes",
+    "preferences"
+  ],
+  "properties": {
+    "workspaceId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "characters": {
+      "type": "array",
+      "maxItems": 1000,
+      "items": {
+        "$ref": "character.schema.json"
+      }
+    },
+    "collections": {
+      "type": "array",
+      "items": {
+        "$ref": "collection.schema.json"
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "relationship.schema.json"
+      }
+    },
+    "scenarios": {
+      "type": "array",
+      "items": {
+        "$ref": "scenario.schema.json"
+      }
+    },
+    "simulationRuns": {
+      "type": "array",
+      "maxItems": 10000,
+      "items": {
+        "$ref": "simulation-run.schema.json"
+      }
+    },
+    "comparisons": {
+      "type": "array",
+      "items": {
+        "$ref": "comparison.schema.json"
+      }
+    },
+    "imageAssets": {
+      "type": "array",
+      "items": {
+        "$ref": "image-asset.schema.json"
+      }
+    },
+    "visualThemes": {
+      "type": "array",
+      "items": {
+        "$ref": "theme.schema.json"
+      }
+    },
+    "preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "locale",
+        "depthMode"
+      ],
+      "properties": {
+        "locale": {
+          "type": "string",
+          "enum": [
+            "en",
+            "fr"
+          ]
+        },
+        "depthMode": {
+          "type": "string",
+          "enum": [
+            "explore",
+            "studio"
+          ]
+        },
+        "activeCharacterId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "activeThemeId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "imageMode": {
+          "type": "string",
+          "enum": [
+            "portrait",
+            "expressions",
+            "action"
+          ]
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "storyCanon": {
+          "type": "array",
+          "maxItems": 10000,
+          "items": {
+            "$ref": "story-event.schema.json"
+          }
+        },
+        "growthHistory": {
+          "type": "array",
+          "maxItems": 10000,
+          "items": {
+            "$ref": "growth-change.schema.json"
+          }
+        }
+      }
+    }
+  }
+}

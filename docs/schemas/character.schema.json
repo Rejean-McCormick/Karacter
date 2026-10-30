@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/character.schema.json",
+  "title": "Karacter 6 character",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "identity",
+    "polarities",
+    "emotionalPalette",
+    "innerWorld",
+    "narrative",
+    "visualSignature",
+    "milestones",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "identity": {
+      "$ref": "identity.schema.json"
+    },
+    "polarities": {
+      "type": "array",
+      "maxItems": 40,
+      "items": {
+        "$ref": "polarity.schema.json"
+      }
+    },
+    "emotionalPalette": {
+      "type": "array",
+      "maxItems": 60,
+      "items": {
+        "type": "string",
+        "minLength": 0,
+        "maxLength": 800
+      }
+    },
+    "innerWorld": {
+      "$ref": "inner-world.schema.json"
+    },
+    "narrative": {
+      "$ref": "narrative.schema.json"
+    },
+    "visualSignature": {
+      "$ref": "visual-signature.schema.json"
+    },
+    "milestones": {
+      "type": "array",
+      "maxItems": 500,
+      "items": {
+        "$ref": "milestone.schema.json"
+      }
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

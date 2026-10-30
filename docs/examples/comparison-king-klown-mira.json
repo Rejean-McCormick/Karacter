@@ -1,0 +1,176 @@
+{
+  "exampleStatus": "illustrative-specimen-not-runtime-output",
+  "sharedScenario": {
+    "id": "55555555-5555-4555-8555-555555555555",
+    "title": "A secret plan is revealed",
+    "context": "During a community meeting, someone asks the characters to disclose a secret plan before any more choices are made.",
+    "keyQuestion": "How can the group decide freely and safely?",
+    "defaultStakes": "high",
+    "tags": [
+      "freedom",
+      "trust",
+      "uncertainty"
+    ],
+    "isBuiltIn": false
+  },
+  "stakes": "high",
+  "characterAId": "11111111-1111-4111-8111-111111111111",
+  "characterBId": "22222222-2222-4222-8222-222222222222",
+  "characterACandidates": [
+    {
+      "id": "kk-habitual",
+      "path": "habitual",
+      "feelings": [
+        "concern",
+        "curiosity"
+      ],
+      "interpretation": "A choice is needed under uncertainty.",
+      "action": "Deflect with a playful question, then explain part of the plan.",
+      "underlyingNeed": "Keep others safe without losing freedom.",
+      "tension": "Humor may obscure urgency.",
+      "possibleUpside": "Could restore trust through an intentional choice.",
+      "possibleTradeoff": "Could unsettle people expecting a simpler answer.",
+      "evidence": [
+        {
+          "sourceType": "character",
+          "sourcePath": "innerWorld.habitualReaction",
+          "reason": "This pattern was explicitly authored.",
+          "status": "authored-fact"
+        }
+      ],
+      "userEdited": false,
+      "locked": false
+    },
+    {
+      "id": "kk-alternative",
+      "path": "deliberate-alternative",
+      "feelings": [
+        "resolve",
+        "concern"
+      ],
+      "interpretation": "A choice is needed under uncertainty.",
+      "action": "Reveal the plan fully and invite the community to decide.",
+      "underlyingNeed": "Allow shared agency.",
+      "tension": "Full disclosure could increase immediate uncertainty.",
+      "possibleUpside": "Could restore trust through an intentional choice.",
+      "possibleTradeoff": "Could unsettle people expecting a simpler answer.",
+      "evidence": [
+        {
+          "sourceType": "character",
+          "sourcePath": "narrative.possibleGrowth",
+          "reason": "Transparency is an authored possibility.",
+          "status": "authored-fact"
+        }
+      ],
+      "userEdited": false,
+      "locked": false
+    },
+    {
+      "id": "kk-surprise",
+      "path": "surprising-but-grounded",
+      "feelings": [
+        "uncertainty",
+        "trust"
+      ],
+      "interpretation": "A choice is needed under uncertainty.",
+      "action": "Step away from leadership and ask Mira to facilitate the decision.",
+      "underlyingNeed": "Protect autonomy through restraint.",
+      "tension": "Others may read withdrawal as abandonment.",
+      "possibleUpside": "Could restore trust through an intentional choice.",
+      "possibleTradeoff": "Could unsettle people expecting a simpler answer.",
+      "evidence": [
+        {
+          "sourceType": "character",
+          "sourcePath": "narrative.contradiction",
+          "reason": "His urge to guide conflicts with freedom.",
+          "status": "authored-fact"
+        },
+        {
+          "sourceType": "relationship",
+          "sourcePath": "relationships[44444444-4444-4444-8444-444444444444].context",
+          "reason": "He respects Mira’s careful judgment.",
+          "status": "authored-fact"
+        }
+      ],
+      "userEdited": false,
+      "locked": false
+    }
+  ],
+  "characterBCandidates": [
+    {
+      "id": "mira-habitual",
+      "path": "habitual",
+      "feelings": [
+        "concern"
+      ],
+      "interpretation": "A choice is needed under uncertainty.",
+      "action": "Ask for a timeline and risks before choosing.",
+      "underlyingNeed": "Make an informed and safe choice.",
+      "tension": "Delay may frustrate the community.",
+      "possibleUpside": "Could restore trust through an intentional choice.",
+      "possibleTradeoff": "Could unsettle people expecting a simpler answer.",
+      "evidence": [
+        {
+          "sourceType": "character",
+          "sourcePath": "polarities[caution-boldness].leftScore",
+          "reason": "Caution is preferred for uncertain situations.",
+          "status": "authored-fact"
+        }
+      ],
+      "userEdited": false,
+      "locked": false
+    },
+    {
+      "id": "mira-alternative",
+      "path": "deliberate-alternative",
+      "feelings": [
+        "resolve"
+      ],
+      "interpretation": "A choice is needed under uncertainty.",
+      "action": "Ask the community for a transparent, time-boxed decision.",
+      "underlyingNeed": "Support shared responsibility.",
+      "tension": "Some uncertainty will remain.",
+      "possibleUpside": "Could restore trust through an intentional choice.",
+      "possibleTradeoff": "Could unsettle people expecting a simpler answer.",
+      "evidence": [
+        {
+          "sourceType": "character",
+          "sourcePath": "narrative.possibleGrowth",
+          "reason": "She may support others choosing freely.",
+          "status": "authored-fact"
+        }
+      ],
+      "userEdited": false,
+      "locked": false
+    },
+    {
+      "id": "mira-surprise",
+      "path": "surprising-but-grounded",
+      "feelings": [
+        "caution",
+        "hope"
+      ],
+      "interpretation": "A choice is needed under uncertainty.",
+      "action": "Offer to conduct a public review rather than make a private judgment.",
+      "underlyingNeed": "Balance care and transparency.",
+      "tension": "Public review can feel confrontational.",
+      "possibleUpside": "Could restore trust through an intentional choice.",
+      "possibleTradeoff": "Could unsettle people expecting a simpler answer.",
+      "evidence": [
+        {
+          "sourceType": "character",
+          "sourcePath": "innerWorld.values",
+          "reason": "Fairness matters to her.",
+          "status": "authored-fact"
+        }
+      ],
+      "userEdited": false,
+      "locked": false
+    }
+  ],
+  "comparisonNotes": [
+    "Both value collective safety and agency.",
+    "King Klown can favor indirect guidance; Mira favors careful transparent review.",
+    "Neither approach is inherently superior."
+  ]
+}

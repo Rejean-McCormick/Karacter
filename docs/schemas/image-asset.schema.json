@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/image-asset.schema.json",
+  "title": "Image asset metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "characterId",
+    "themeId",
+    "mode",
+    "mimeType",
+    "width",
+    "height",
+    "byteLength",
+    "sha256",
+    "createdAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "characterId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "themeId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "portrait",
+        "expressions",
+        "action"
+      ]
+    },
+    "mimeType": {
+      "type": "string",
+      "enum": [
+        "image/png",
+        "image/jpeg",
+        "image/webp",
+        "image/avif"
+      ]
+    },
+    "width": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "height": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "byteLength": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

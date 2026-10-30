@@ -1,0 +1,110 @@
+{
+  "id": "22222222-2222-4222-8222-222222222222",
+  "identity": {
+    "name": "Mira",
+    "collectionId": "33333333-3333-4333-8333-333333333333",
+    "role": "Reflective protector",
+    "archetypeId": null,
+    "keywords": [
+      "loyal",
+      "patient",
+      "attentive"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "checks surroundings"
+        ],
+        "canHelpWhen": [
+          "Caution can help when the scene calls for it"
+        ],
+        "canComplicateWhen": [
+          "Caution can complicate another kind of situation"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "steps forward"
+        ],
+        "canHelpWhen": [
+          "Boldness can help when the scene calls for it"
+        ],
+        "canComplicateWhen": [
+          "Boldness can complicate another kind of situation"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "template",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "takes time to think"
+        ],
+        "canHelpWhen": [
+          "Reflection can help when the scene calls for it"
+        ],
+        "canComplicateWhen": [
+          "Reflection can complicate another kind of situation"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "quick response"
+        ],
+        "canHelpWhen": [
+          "Spontaneity can help when the scene calls for it"
+        ],
+        "canComplicateWhen": [
+          "Spontaneity can complicate another kind of situation"
+        ]
+      },
+      "leftScore": 5,
+      "appliesWhen": "Responding to surprises",
+      "source": "template",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "calm",
+    "concerned"
+  ],
+  "innerWorld": {
+    "motivation": "Protect her companions fairly.",
+    "values": [
+      "care",
+      "justice"
+    ],
+    "fear": "Failing someone who depends on her.",
+    "habitualReaction": "Listen, examine the situation and propose a careful solution."
+  },
+  "narrative": {
+    "desire": "Keep her companions safe.",
+    "need": "Accept that not every outcome can be controlled.",
+    "limitingBelief": "I must always prevent mistakes.",
+    "contradiction": "She values growth but may shield friends from useful risk.",
+    "turningPoint": "A companion asks her to let them try alone.",
+    "possibleGrowth": "Offer support without deciding for others."
+  },
+  "visualSignature": {
+    "description": "Kind expression, dark blue jacket, small notebook.",
+    "identityAnchors": [
+      "dark blue jacket",
+      "small notebook"
+    ],
+    "exclusions": []
+  },
+  "milestones": [],
+  "createdAt": "2026-10-29T20:00:00Z",
+  "updatedAt": "2026-10-29T20:00:00Z"
+}

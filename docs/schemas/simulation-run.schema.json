@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/simulation-run.schema.json",
+  "title": "Saved scenario simulation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "engineVersion",
+    "createdAt",
+    "characterId",
+    "scenarioId",
+    "stakes",
+    "inputsHash",
+    "characterSnapshot",
+    "scenarioSnapshot",
+    "candidates"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "engineVersion": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "characterId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "scenarioId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "stakes": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "inputsHash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "characterSnapshot": {
+      "$ref": "character.schema.json"
+    },
+    "scenarioSnapshot": {
+      "$ref": "scenario.schema.json"
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "items": {
+        "$ref": "reaction-candidate.schema.json"
+      }
+    }
+  }
+}

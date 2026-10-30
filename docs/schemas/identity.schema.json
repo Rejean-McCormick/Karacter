@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/identity.schema.json",
+  "title": "Character identity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "collectionId",
+    "role",
+    "archetypeId",
+    "keywords"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "collectionId": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "role": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 400
+    },
+    "archetypeId": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "keywords": {
+      "type": "array",
+      "maxItems": 40,
+      "items": {
+        "type": "string",
+        "minLength": 0,
+        "maxLength": 800
+      }
+    }
+  }
+}

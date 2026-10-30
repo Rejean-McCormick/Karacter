@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/reaction-candidate.schema.json",
+  "title": "Possible reaction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "path",
+    "feelings",
+    "interpretation",
+    "action",
+    "underlyingNeed",
+    "tension",
+    "possibleUpside",
+    "possibleTradeoff",
+    "evidence",
+    "userEdited",
+    "locked"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "path": {
+      "type": "string",
+      "enum": [
+        "habitual",
+        "deliberate-alternative",
+        "surprising-but-grounded"
+      ]
+    },
+    "feelings": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "string",
+        "minLength": 0,
+        "maxLength": 800
+      }
+    },
+    "interpretation": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "action": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 8192
+    },
+    "underlyingNeed": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "tension": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "possibleUpside": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "possibleTradeoff": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "evidence": {
+      "type": "array",
+      "maxItems": 40,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sourceType",
+          "sourcePath",
+          "reason",
+          "status"
+        ],
+        "properties": {
+          "sourceType": {
+            "type": "string",
+            "enum": [
+              "character",
+              "relationship",
+              "scenario",
+              "inference"
+            ]
+          },
+          "sourcePath": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1200
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "authored-fact",
+              "interpretation"
+            ]
+          }
+        }
+      }
+    },
+    "userEdited": {
+      "type": "boolean"
+    },
+    "locked": {
+      "type": "boolean"
+    }
+  }
+}

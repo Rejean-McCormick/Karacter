@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://karacter.local/schemas/inner-world.schema.json",
+  "title": "Inner world",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "motivation",
+    "values",
+    "fear",
+    "habitualReaction"
+  ],
+  "properties": {
+    "motivation": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "values": {
+      "type": "array",
+      "maxItems": 40,
+      "items": {
+        "type": "string",
+        "minLength": 0,
+        "maxLength": 800
+      }
+    },
+    "fear": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    },
+    "habitualReaction": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 8192
+    }
+  }
+}
