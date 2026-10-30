@@ -23,3 +23,7 @@
 | [The elder at the communal meal](characters/the-elder-at-the-communal-meal.md) | unnamed-role-character | U109 |
 | [The Uyghur worker at the meal](characters/the-uyghur-worker-at-the-meal.md) | unnamed-role-character | U109 |
 | [The local fisher at the meal](characters/the-local-fisher-at-the-meal.md) | unnamed-role-character | U109 |
+
+## Canon narrative expansion (v7.2)
+
+See [King Clown Canon catalogue](KING_CLOWN_CANON_CATALOGUE.md). This adds 20 mythic and human narrative profiles, without duplicating the 19 Kristal MEDIA characters.

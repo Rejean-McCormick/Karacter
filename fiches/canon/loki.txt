@@ -1,0 +1,359 @@
+KARACTER CHARACTER SHEET v6
+
+Edit any plain-text sections below. For nested data, use the JSON record. Images are not included.
+
+[NAME]
+Loki
+[/NAME]
+
+[ROLE]
+Transformative trickster
+[/ROLE]
+
+[MOTIVATION]
+Test restrictive rules and expose hidden possibilities.
+[/MOTIVATION]
+
+[FEAR]
+Becoming predictable or trapped by his own performance.
+[/FEAR]
+
+[REACTION]
+May initially guard a familiar way of seeing things, then adapt when a new perspective is offered; this is a creative interpretation.
+[/REACTION]
+
+[DESIRE]
+Test restrictive rules and expose hidden possibilities.
+[/DESIRE]
+
+[NEED]
+Turn a disruption into purposeful creation.
+[/NEED]
+
+[CONTRADICTION]
+Breaking patterns is easier than building a better one.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+Shifting mirror-hall, mercurial expressions and fragmented reflections. — Character visual direction proposed from the source scene, not a fixed canonical design.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "36dd7e0f-6ced-50a2-80d6-a6529cfe48c5",
+  "identity": {
+    "name": "Loki",
+    "collectionId": "097ea81e-6f3c-5274-9942-ca075db93202",
+    "role": "Transformative trickster",
+    "archetypeId": null,
+    "keywords": [
+      "transformative",
+      "trickster"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 0,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Entering conversations",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 0,
+      "appliesWhen": "Responding to surprises",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 4,
+      "appliesWhen": "Balancing group priorities",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Showing intense feelings",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 0,
+      "appliesWhen": "Approaching a new problem",
+      "source": "imported",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "reflective",
+    "hopeful"
+  ],
+  "innerWorld": {
+    "motivation": "Test restrictive rules and expose hidden possibilities.",
+    "values": [
+      "agency",
+      "responsibility",
+      "transformation"
+    ],
+    "fear": "Becoming predictable or trapped by his own performance.",
+    "habitualReaction": "May initially guard a familiar way of seeing things, then adapt when a new perspective is offered; this is a creative interpretation."
+  },
+  "narrative": {
+    "desire": "Test restrictive rules and expose hidden possibilities.",
+    "need": "Turn a disruption into purposeful creation.",
+    "limitingBelief": "Becoming predictable or trapped by his own performance.",
+    "contradiction": "Breaking patterns is easier than building a better one.",
+    "turningPoint": "In a hall of mutable mirrors, Loki is challenged to see chaos as a source of future possibilities rather than momentary disruption.",
+    "possibleGrowth": "Turn a disruption into purposeful creation."
+  },
+  "visualSignature": {
+    "description": "Shifting mirror-hall, mercurial expressions and fragmented reflections. — Character visual direction proposed from the source scene, not a fixed canonical design.",
+    "identityAnchors": [
+      "Shifting mirror-hall",
+      "mercurial expressions and fragmented reflections."
+    ],
+    "exclusions": [
+      "unrelated franchise logos",
+      "a generic interchangeable character design"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T16:00:00Z",
+  "updatedAt": "2026-10-30T16:00:00Z",
+  "extensions": {
+    "canon": {
+      "sourcePackage": "king-clown-canon.zip",
+      "profileKind": "mythic-character",
+      "sourceRefs": [
+        "CORPUS/mythos-gods/Loki La danse du chaos 15709637d3f7804f8d67c728c6949f3c.md",
+        "CANON/05_GODS.md"
+      ],
+      "evidenceSummary": "In a hall of mutable mirrors, Loki is challenged to see chaos as a source of future possibilities rather than momentary disruption.",
+      "creativeNote": "Motivations, fears, emotional palette, polarities, proposed growth and some imagery are editorial interpretations, not canon. God figures are source-specific portrayals, not claims about living religious traditions.",
+      "sourceStatus": "SOURCE_EXPLICIT",
+      "epistemicLayer": "MYTHIC",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — unmeasured",
+      "visualStatus": "SOURCE_SCENE_AND_CREATIVE_PROPOSAL",
+      "identityContinuity": ""
+    }
+  }
+}
+[/JSON_RECORD]

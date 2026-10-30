@@ -1,0 +1,359 @@
+KARACTER CHARACTER SHEET v6
+
+Edit any plain-text sections below. For nested data, use the JSON record. Images are not included.
+
+[NAME]
+Morrigan
+[/NAME]
+
+[ROLE]
+Destruction and renewal
+[/ROLE]
+
+[MOTIVATION]
+End what can no longer serve life.
+[/MOTIVATION]
+
+[FEAR]
+Losing her identity if destruction is not the only task.
+[/FEAR]
+
+[REACTION]
+May initially guard a familiar way of seeing things, then adapt when a new perspective is offered; this is a creative interpretation.
+[/REACTION]
+
+[DESIRE]
+End what can no longer serve life.
+[/DESIRE]
+
+[NEED]
+Treat the aftermath of destruction as her responsibility too.
+[/NEED]
+
+[CONTRADICTION]
+Her endings may contain the seed of creation.
+[/CONTRADICTION]
+
+[VISUAL_SIGNATURE]
+Ashen battlefield, a dormant seed among broken steel. — Character visual direction proposed from the source scene, not a fixed canonical design.
+[/VISUAL_SIGNATURE]
+
+[JSON_RECORD]
+{
+  "id": "60587905-a1a8-5856-ab12-200264dc059c",
+  "identity": {
+    "name": "Morrigan",
+    "collectionId": "097ea81e-6f3c-5274-9942-ca075db93202",
+    "role": "Destruction and renewal",
+    "archetypeId": null,
+    "keywords": [
+      "destruction",
+      "renewal"
+    ]
+  },
+  "polarities": [
+    {
+      "id": "caution-boldness",
+      "left": {
+        "label": "Caution",
+        "visualCues": [
+          "Measured stance, checking for hazards"
+        ],
+        "canHelpWhen": [
+          "anticipating danger before committing"
+        ],
+        "canComplicateWhen": [
+          "hesitating when immediate action is necessary"
+        ]
+      },
+      "right": {
+        "label": "Boldness",
+        "visualCues": [
+          "Confident forward motion, eyes on the challenge"
+        ],
+        "canHelpWhen": [
+          "seizing a timely opportunity despite uncertainty"
+        ],
+        "canComplicateWhen": [
+          "exposing self or others to poorly understood risks"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Facing uncertainty or potential danger",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reserve-expression",
+      "left": {
+        "label": "Reserve",
+        "visualCues": [
+          "Observant posture, attentive eyes and measured gesture"
+        ],
+        "canHelpWhen": [
+          "hearing subtle clues before speaking"
+        ],
+        "canComplicateWhen": [
+          "remaining unseen when a voice is needed"
+        ]
+      },
+      "right": {
+        "label": "Expressiveness",
+        "visualCues": [
+          "Open gesture, lively face, engaging gaze"
+        ],
+        "canHelpWhen": [
+          "energizing a group and sharing ideas"
+        ],
+        "canComplicateWhen": [
+          "drowning out quieter people unintentionally"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Entering conversations",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "reflection-spontaneity",
+      "left": {
+        "label": "Reflection",
+        "visualCues": [
+          "Composed pose, a deliberate hand gesture"
+        ],
+        "canHelpWhen": [
+          "considering long-term consequences"
+        ],
+        "canComplicateWhen": [
+          "delaying during an urgent choice"
+        ]
+      },
+      "right": {
+        "label": "Spontaneity",
+        "visualCues": [
+          "Lively gesture and responsive expression"
+        ],
+        "canHelpWhen": [
+          "adapting quickly to surprise"
+        ],
+        "canComplicateWhen": [
+          "moving before important details are known"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Responding to surprises",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "familiarity-exploration",
+      "left": {
+        "label": "Familiarity",
+        "visualCues": [
+          "Recognizable, well-used tools and reassuring stance"
+        ],
+        "canHelpWhen": [
+          "preserving useful routines in a crisis"
+        ],
+        "canComplicateWhen": [
+          "rejecting a helpful change too soon"
+        ]
+      },
+      "right": {
+        "label": "Exploration",
+        "visualCues": [
+          "Investigating gaze and exploratory movement"
+        ],
+        "canHelpWhen": [
+          "discovering new routes and alternatives"
+        ],
+        "canComplicateWhen": [
+          "losing direction across too many possibilities"
+        ]
+      },
+      "leftScore": 1,
+      "appliesWhen": "Discovering an unknown possibility",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "objectives-relationships",
+      "left": {
+        "label": "Task focus",
+        "visualCues": [
+          "Focused attention on a task or tool"
+        ],
+        "canHelpWhen": [
+          "delivering a clear plan when results matter"
+        ],
+        "canComplicateWhen": [
+          "overlooking how people experience the decision"
+        ]
+      },
+      "right": {
+        "label": "Relationship focus",
+        "visualCues": [
+          "Body angled toward others, attentive listening"
+        ],
+        "canHelpWhen": [
+          "noticing needs and keeping trust alive"
+        ],
+        "canComplicateWhen": [
+          "postponing a necessary difficult decision"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Balancing group priorities",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "containment-expression",
+      "left": {
+        "label": "Emotional containment",
+        "visualCues": [
+          "Subtle eyes and composed expression"
+        ],
+        "canHelpWhen": [
+          "protecting private feelings in a difficult moment"
+        ],
+        "canComplicateWhen": [
+          "making it hard for others to understand their needs"
+        ]
+      },
+      "right": {
+        "label": "Emotional expression",
+        "visualCues": [
+          "Emotionally readable eyes and nuanced facial expression"
+        ],
+        "canHelpWhen": [
+          "sharing feelings in a way others can respond to"
+        ],
+        "canComplicateWhen": [
+          "feeling overwhelmed in an intense environment"
+        ]
+      },
+      "leftScore": 3,
+      "appliesWhen": "Showing intense feelings",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "speed-patience",
+      "left": {
+        "label": "Quick pace",
+        "visualCues": [
+          "Ready stance, brisk efficient movement"
+        ],
+        "canHelpWhen": [
+          "mobilizing action quickly"
+        ],
+        "canComplicateWhen": [
+          "rushing when careful work is needed"
+        ]
+      },
+      "right": {
+        "label": "Patient pace",
+        "visualCues": [
+          "Relaxed stance, unhurried sustained focus"
+        ],
+        "canHelpWhen": [
+          "giving ideas and relationships time to grow"
+        ],
+        "canComplicateWhen": [
+          "missing a fleeting opportunity"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Choosing the rhythm of a task",
+      "source": "imported",
+      "migrationReviewRequired": false
+    },
+    {
+      "id": "practicality-imagination",
+      "left": {
+        "label": "Practicality",
+        "visualCues": [
+          "Useful objects and grounded, precise gesture"
+        ],
+        "canHelpWhen": [
+          "finding feasible solutions under constraints"
+        ],
+        "canComplicateWhen": [
+          "discarding a promising unconventional idea"
+        ]
+      },
+      "right": {
+        "label": "Imagination",
+        "visualCues": [
+          "Inventive accessories and an imaginative gaze"
+        ],
+        "canHelpWhen": [
+          "conceiving possibilities others have missed"
+        ],
+        "canComplicateWhen": [
+          "underestimating the effort needed to make them real"
+        ]
+      },
+      "leftScore": 2,
+      "appliesWhen": "Approaching a new problem",
+      "source": "imported",
+      "migrationReviewRequired": false
+    }
+  ],
+  "emotionalPalette": [
+    "curious",
+    "reflective",
+    "hopeful"
+  ],
+  "innerWorld": {
+    "motivation": "End what can no longer serve life.",
+    "values": [
+      "agency",
+      "responsibility",
+      "transformation"
+    ],
+    "fear": "Losing her identity if destruction is not the only task.",
+    "habitualReaction": "May initially guard a familiar way of seeing things, then adapt when a new perspective is offered; this is a creative interpretation."
+  },
+  "narrative": {
+    "desire": "End what can no longer serve life.",
+    "need": "Treat the aftermath of destruction as her responsibility too.",
+    "limitingBelief": "Losing her identity if destruction is not the only task.",
+    "contradiction": "Her endings may contain the seed of creation.",
+    "turningPoint": "On a battlefield of ash, Morrigan questions whether what ends can also prepare the ground for what comes next.",
+    "possibleGrowth": "Treat the aftermath of destruction as her responsibility too."
+  },
+  "visualSignature": {
+    "description": "Ashen battlefield, a dormant seed among broken steel. — Character visual direction proposed from the source scene, not a fixed canonical design.",
+    "identityAnchors": [
+      "Ashen battlefield",
+      "a dormant seed among broken steel."
+    ],
+    "exclusions": [
+      "unrelated franchise logos",
+      "a generic interchangeable character design"
+    ]
+  },
+  "milestones": [],
+  "createdAt": "2026-10-30T16:00:00Z",
+  "updatedAt": "2026-10-30T16:00:00Z",
+  "extensions": {
+    "canon": {
+      "sourcePackage": "king-clown-canon.zip",
+      "profileKind": "mythic-character",
+      "sourceRefs": [
+        "CORPUS/mythos-gods/Morrigan les cendres et la graine 15709637d3f7801bb44dca40b832f097.md",
+        "CANON/05_GODS.md"
+      ],
+      "evidenceSummary": "On a battlefield of ash, Morrigan questions whether what ends can also prepare the ground for what comes next.",
+      "creativeNote": "Motivations, fears, emotional palette, polarities, proposed growth and some imagery are editorial interpretations, not canon. God figures are source-specific portrayals, not claims about living religious traditions.",
+      "sourceStatus": "SOURCE_EXPLICIT",
+      "epistemicLayer": "MYTHIC",
+      "polaritiesStatus": "CREATIVE_PROPOSAL — unmeasured",
+      "visualStatus": "SOURCE_SCENE_AND_CREATIVE_PROPOSAL",
+      "identityContinuity": ""
+    }
+  }
+}
+[/JSON_RECORD]

@@ -91,3 +91,7 @@ Read [the release specification](docs/RELEASE_7_0.md), [implementation status](d
 This distribution includes **19 source-aware character design profiles** and **18 relationships** based on the supplied Kristal MEDIA 4.2.0 archive. Fresh installations receive them as example profiles; existing users can use **Import Kristal universe** from the sidebar without overwriting existing character fields or portrait images.
 
 The source archive contained **no portrait images**. Most personality scores and visual suggestions are imaginative proposals, explicitly identified as such, and must not be mistaken for Kristal canon. Read [the universe evidence policy](docs/universe/README.md) and [the character index](docs/universe/CHARACTER_INDEX.md).
+
+## King Clown Canon extension — v7.2
+
+Added 20 individual profiles based on the newly provided King Clown Canon sources, including seventeen mythic source figures, Réjean McCormick, Elias and Gabriel Lajoie. New installs include them; existing collections can use **Import King Klown Canon** without overwriting saved profiles. The Canon and Kristal MEDIA imports remain separate. Read `docs/universe/KING_CLOWN_CANON_CATALOGUE.md` for evidence and creative-vs-canon boundaries.
