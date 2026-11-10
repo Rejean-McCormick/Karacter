@@ -4,7 +4,7 @@
   "private": true,
   "description": "Offline bilingual character studio with two default universes, migration-safe",
   "scripts": {
-    "test": "node tests/core.test.cjs && node tests/storage.test.cjs && node tests/narrative.test.cjs && node tests/kristal-pack.test.cjs && node tests/canon-pack.test.cjs && node tests/universes.test.cjs",
+    "test": "node tests/core.test.cjs && node tests/storage.test.cjs && node tests/narrative.test.cjs && node tests/kristal-pack.test.cjs && node tests/canon-pack.test.cjs && node tests/universes.test.cjs && node tests/creative-handoff.test.cjs",
     "serve": "python -m http.server 8080"
   },
   "engines": {

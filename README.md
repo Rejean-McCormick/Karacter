@@ -107,3 +107,7 @@ The source archive contained **no portrait images**. Most personality scores and
 ## King Clown Canon extension — v7.2
 
 Added 20 individual profiles based on the newly provided King Clown Canon sources, including seventeen mythic source figures, Réjean McCormick, Elias and Gabriel Lajoie. New installs include them; existing collections receive missing profiles automatically once on upgrading to 7.3. There are no separate import actions for bundled universes. Read `docs/universe/KING_CLOWN_CANON_CATALOGUE.md` for evidence and creative-vs-canon boundaries.
+
+## Optional UCKK creative candidate handoff
+
+From **Backup / Export**, choose **UCKK asset candidate (review required)** to export a deliberately limited fictional-character proposal for manual editorial review. This does not grant rights or UCKK publication approval and does not alter the existing Ékole export. See [the English candidate specification](docs/CREATIVE_ASSET_CANDIDATES.md).
