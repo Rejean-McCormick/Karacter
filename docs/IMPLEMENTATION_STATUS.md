@@ -1,4 +1,6 @@
-# Karacter 7.0 — Implementation status
+# Karacter 7.0 — Historical implementation status
+
+> **Historical evidence (7.0–7.1):** the current source version in the 23 November 2026 capture is **7.4.0**. This page retains its original local-test limitations and does not establish fresh 7.4 runtime qualification. See [release 7.4](RELEASE_7_4.md) and [root README](../README.md).
 
 ## Implemented in the repository
 

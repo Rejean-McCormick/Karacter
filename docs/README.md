@@ -1,12 +1,14 @@
 # Karacter documentation
 
-**Latest:** [Karacter 7.0 release and rules](RELEASE_7_0.md) · [Implementation status](IMPLEMENTATION_STATUS.md).
+**Current source version:** **7.4.0** (`package.json`, `README.md`). Start with [7.4 unified-universes release](RELEASE_7_4.md) and [project README](../README.md). [7.0 release](RELEASE_7_0.md) and [7.0 implementation evidence](IMPLEMENTATION_STATUS.md) are retained as historical snapshots.
 
 The v6 specification and original JSON schemas remain below for historical context and compatibility.
 
-> **Implementation status (6.0.0):** [Delivered code, test evidence and remaining work](IMPLEMENTATION_STATUS.md).
+> **Historical status:** the linked [implementation evidence](IMPLEMENTATION_STATUS.md) primarily describes Karacter 7.0 and 7.1. Consult [7.4 release notes](RELEASE_7_4.md) for the current universe model; no new production qualification is implied.
 
-# Karacter 6 — Documentation source of truth
+# Historical Karacter 6 — design specification (not the current 7.4 release)
+
+The v6 section below is preserved as a historical design baseline. It is **not** the current shipped-state source of truth; see [7.4 notes](RELEASE_7_4.md) and [root README](../README.md).
 
 **Status:** Implementation specification (draft baseline, 29 October 2026).  
 **Language:** English documentation; the product interface is bilingual English/French.  
